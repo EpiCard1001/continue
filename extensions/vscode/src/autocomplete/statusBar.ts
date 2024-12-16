@@ -47,20 +47,20 @@ const statusBarItemText = (
   error?: boolean,
 ) => {
   if (error) {
-    return "$(alert) Continue (FATAL ERROR)";
+    return "$(alert) H2loop (FATAL ERROR)";
   }
 
   switch (status) {
     case undefined:
       if (loading) {
-        return "$(loading~spin) Continue";
+        return "$(loading~spin) H2loop";
       }
     case StatusBarStatus.Disabled:
-      return "$(circle-slash) Continue";
+      return "$(circle-slash) H2loop";
     case StatusBarStatus.Enabled:
-      return "$(check) Continue";
+      return "$(check) H2loop";
     case StatusBarStatus.Paused:
-      return "$(debug-pause) Continue";
+      return "$(debug-pause) H2loop";
   }
 };
 

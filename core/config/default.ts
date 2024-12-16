@@ -6,10 +6,10 @@ import {
 } from "../";
 
 export const DEFAULT_CHAT_MODEL_CONFIG: ModelDescription = {
-  model: "claude-3-5-sonnet-latest",
-  provider: "anthropic",
-  apiKey: "",
-  title: "Claude 3.5 Sonnet",
+  model: "meta-llama/Llama-Vision-Free",
+  provider: "together",
+  apiKey: "47e5e2f91298cac3f1d47543f941be52bcbf4d080ae661cf6fa87fbbc3409d0a",
+  title: "H2LooP",
 };
 
 export const DEFAULT_AUTOCOMPLETE_MODEL_CONFIG: ModelDescription = {

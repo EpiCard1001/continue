@@ -1,7 +1,7 @@
 {
-  "name": "continue",
+  "name": "assistant",
   "icon": "media/icon.png",
-  "author": "Continue Dev, Inc",
+  "author": "H2loop.ai",
   "version": "0.9.245",
   "repository": {
     "type": "git",
@@ -15,13 +15,13 @@
     "url": "https://github.com/continuedev/continue/issues",
     "email": "nate@continue.dev"
   },
-  "homepage": "https://continue.dev",
+  "homepage": "https://h2loop.dev",
   "qna": "https://github.com/continuedev/continue/issues/new/choose",
   "license": "Apache-2.0",
-  "displayName": "Continue - Codestral, Claude, and more",
+  "displayName": "H2loop - private coding assistant for your enterprise",
   "pricing": "Free",
-  "description": "The leading open-source AI code assistant",
-  "publisher": "Continue",
+  "description": "H2Loop is coding assistant that keeps your code private.",
+  "publisher": "H2Loop",
   "engines": {
     "vscode": "^1.70.0",
     "node": ">=20.11.0"
@@ -439,7 +439,7 @@
     "submenus": [
       {
         "id": "continue.continueSubMenu",
-        "label": "Continue"
+        "label": "H2loop"
       }
     ],
     "menus": {
@@ -571,7 +571,7 @@
       "activitybar": [
         {
           "id": "continue",
-          "title": "Continue",
+          "title": "H2loop",
           "icon": "media/sidebar-icon.png"
         }
       ]
