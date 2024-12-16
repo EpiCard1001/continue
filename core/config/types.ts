@@ -730,6 +730,7 @@ declare global {
     | "DraftIssueStep";
   
   type ContextProviderName =
+    | "datasheet"
     | "diff"
     | "github"
     | "terminal"

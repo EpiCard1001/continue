@@ -1,0 +1,1798 @@
+[
+    {
+        "id": 1,
+        "text": "ova5640 -  datasheet PRODUCT SPECIFICATION OV5640"
+    },
+    {
+        "id": 2,
+        "text": "ova5640 -  1/4\" color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 3,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology - 00Copyright © 2011 Omnivision Technologies, Inc. All Rights Reserved. -  This document is provided \"as is\" with no warranties whatsoever, including any warranty of merchantability, non-infringement, fitness for any particular purpose, or any warranty otherwise arising out of any proposal, specification, or sample."
+    },
+    {
+        "id": 4,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology - 00Copyright © 2011 Omnivision Technologies, Inc. All Rights Reserved. -  OmniVision Technologies, Inc. and all its affiliates disclaim all liability, including liability for infringement of any proprietary rights, relating to the use of information in this document. No license, expressed or implied, by estoppel or otherwise, to any intellectual property rights is granted herein."
+    },
+    {
+        "id": 5,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology - 00Copyright © 2011 Omnivision Technologies, Inc. All Rights Reserved. -  The information contained in this document is considered proprietary to OmniVision Technologies, Inc. and all its affiliates. This information may be distributed to individuals or organizations authorized by OmniVision Technologies, Inc. to receive said information. Individuals and/or organizations are not allowed to re-distribute said information."
+    },
+    {
+        "id": 6,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology - 00Copyright © 2011 Omnivision Technologies, Inc. All Rights Reserved. -  Trademark Information OmniVision and the OmniVision logo are registered trademarks of OmniVision Technologies, Inc. OmniBSI is a trademark of OmniVision Technologies, Inc."
+    },
+    {
+        "id": 7,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology - 00Copyright © 2011 Omnivision Technologies, Inc. All Rights Reserved. -  All other trademarks used herein are the property of their respective owners."
+    },
+    {
+        "id": 8,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology - 00Copyright © 2011 Omnivision Technologies, Inc. All Rights Reserved. -  color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology datasheet (CSP3) PRODUCT SPECIFICATION version 2.03 may 2011 To learn more about OmniVision Technologies, visit www.ovt.com. OmniVision Technologies is publicly traded on NASDAQ under the symbol OVTI."
+    },
+    {
+        "id": 9,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology - 00Applications -  cellular phones toys PC multimedia digital still cameras"
+    },
+    {
+        "id": 10,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology - 00Features -  1.4 µm x 1.4 µm pixel with OmniBSI technology for high performance (high sensitivity, low crosstalk, low noise, improved quantum efficiency) optical size of 1/4\" automatic image control functions: automatic exposure control (AEC), automatic white balance (AWB), automatic band filter (ABF), automatic 50/60 Hz luminance detection, and automatic black level calibration (ABLC) programmable controls for frame rate, AEC/AGC 16-zone size/position/weight control, mirror and flip, cropping, windowing, and panning image quality controls: color saturation, hue, gamma, sharpness (edge enhancement), lens correction, defective pixel canceling, and noise canceling support for output formats: RAW RGB, RGB565/555/444, CCIR656, YUV422/420, YCbCr422, and compression support for video or snapshot operations support for internal and external frame synchronization for frame exposure mode"
+    },
+    {
+        "id": 11,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology - 00Key Specifications (Typical) -  **active array size:** 2592 x 1944 **power supply:** core: 1.5V ± 5% (with embedded 1.5V regulator) analog: 2.6 ~ 3.0V (2.8V typical) I/O: 1.8V / 2.8V **power requirements:** active: 140 mA standby: 20 µA **temperature range:** operating: -30°C to 70°C junction temperature (see table 8-1) stable image: 0°C to 50°C junction temperature (see table 8-1) **output formats:** 8-/10-bit RGB RAW output **lens size:** 1/4\" **lens chief ray angle:** 24° (see **figure 10-2**) **input clock frequency:** 6~27 MHz **max S/N ratio:** 36 dB (maximum) **dynamic range:** 68 dB @ 8x gain **maximum image transfer rate:** QSXGA (2592x1944): 15 fps 1080p: 30 fps 1280x960: 45 fps 720p: 60 fps VGA (640x480): 90 fps QVGA (320x240): 120 fps **sensitivity:** 600 mV/Lux-sec **shutter:** rolling shutter / frame exposure **maximum exposure interval:** 1964 x tROW **pixel size:** 1.4 µm x 1.4 µm **dark current:** 8 mV/s @ 60°C junction temperature **image area:** 3673.6 µm x 2738.4 µm **package dimensions:** 5985 µm x 5835 µm"
+    },
+    {
+        "id": 12,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology - Ordering Information -  **OV05640-A71A** (color, lead-free) 71-pin CSP3 support for LED and flash strobe mode support for horizontal and vertical sub-sampling, binning support for minimizing artifacts on binned image support for data compression output support for anti-shake standard serial SCCB interface digital video port (DVP) parallel output interface and dual lane MIPI output interface embedded 1.5V regulator for core power programmable I/O drive capability, I/O tri-state configurability support for black sun cancellation support for images sizes: 5 megapixel, and any arbitrary size scaling down from 5 megapixel support for auto focus control (AFC) with embedded AF VCM driver embedded microcontroller suitable for module size of 8.5 x 8.5 x <6mm with both CSP and RW packaging OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 13,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology - 00Table Of Contents -  iii"
+    },
+    {
+        "id": 14,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology - 00Table Of Contents -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 15,
+        "text": "ova5640 - 00List Of Figures -  vii OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology figure 10-1 sensor array center 10-1 figure 10-2 chief ray angle (CRA) 10-2"
+    },
+    {
+        "id": 16,
+        "text": "ova5640 - 00List Of Figures - 00List Of Tables -  ix OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 17,
+        "text": "ova5640 - 00List Of Figures - 00List Of Tables -  xi OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 18,
+        "text": "ova5640 - 00List Of Figures - 1 Signal Descriptions -  table 1-1 lists the signal descriptions and their corresponding pin numbers for the OV5640 image sensor. The package information is shown in **section 9**."
+    },
+    {
+        "id": 19,
+        "text": "ova5640 - 00List Of Figures - 1 Signal Descriptions -  table 1-1 signal descriptions (sheet 1 of 3)"
+    },
+    {
+        "id": 20,
+        "text": "ova5640 - 00List Of Figures - 1 Signal Descriptions -  table 1-1 signal descriptions (sheet 2 of 3)"
+    },
+    {
+        "id": 21,
+        "text": "ova5640 - 00List Of Figures - 1 Signal Descriptions -  table 1-1 signal descriptions (sheet 3 of 3)"
+    },
+    {
+        "id": 22,
+        "text": "ova5640 - 00List Of Figures - 1 Signal Descriptions -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology figure 1-1 pin diagram"
+    },
+    {
+        "id": 23,
+        "text": "ova5640 - 00List Of Figures - 1 Signal Descriptions -  ) 04"
+    },
+    {
+        "id": 24,
+        "text": "ova5640 - 00List Of Figures - 1 Signal Descriptions -  5640 CSP DS 1 1 ail"
+    },
+    {
+        "id": 25,
+        "text": "ova5640 - 00List Of Figures - 2 System Level Description 2.1 Overview -  The OV5640 (color) image sensor is a low voltage, high-performance, 1/4-inch 5 megapixel CMOS image sensor that provides the full functionality of a single chip 5 megapixel (2592x1944) camera using OmniBSI™ technology in a small footprint package. It provides full-frame, sub-sampled, windowed or arbitrarily scaled 8-bit/10-bit images in various formats via the control of the Serial Camera Control Bus (SCCB) interface."
+    },
+    {
+        "id": 26,
+        "text": "ova5640 - 00List Of Figures - 2 System Level Description 2.1 Overview -  The OV5640 has an image array capable of operating at up to 15 frames per second (fps) in 5 megapixel resolution with complete user control over image quality, formatting and output data transfer. All required image processing functions, including exposure control, gamma, white balance, color saturation, hue control, defective pixel canceling, noise canceling, etc., are programmable through the SCCB interface or embedded microcontroller. The OV5640 also includes a compression engine for increased processing power. In addition, OmniVision image sensors use proprietary sensor technology to improve image quality by reducing or eliminating common lighting/electrical sources of image contamination, such as fixed pattern noise, smearing, etc., to produce a clean, fully stable, color image. The OV5640 has an embedded microcontroller, which can be combined with an internal autofocus engine and programmable general purpose I/O modules (GPIO) for external autofocus control. It also provides an anti-shake function with an internal anti-shake engine. For identification and storage purposes, the OV5640 also includes a one-time programmable (OTP) memory."
+    },
+    {
+        "id": 27,
+        "text": "ova5640 - 00List Of Figures - 2 System Level Description 2.1 Overview -  The OV5640 supports both a digital video parallel port and a serial MIPI port."
+    },
+    {
+        "id": 28,
+        "text": "ova5640 - 00List Of Figures - 2.2 Architecture -  The OV5640 sensor core generates streaming pixel data at a constant frame rate, indicated by HREF and VSYNC. figure 2-1 shows the functional block diagram of the OV5640 image sensor."
+    },
+    {
+        "id": 29,
+        "text": "ova5640 - 00List Of Figures - 2.2 Architecture -  The timing generator outputs signals to access the rows of the image array, precharging and sampling the rows of the array in series. In the time between pre-charging and sampling a row, the charge in the pixels decreases with the time exposed to the incident light. This is known as exposure time."
+    },
+    {
+        "id": 30,
+        "text": "ova5640 - 00List Of Figures - 2.2 Architecture -  The exposure time is controlled by adjusting the time interval between precharging and sampling. After the data of the pixels in the row has been sampled, it is processed through analog circuitry to correct the offset and multiply the data with corresponding gain. Following analog processing is the ADC which outputs 10-bit data for each pixel in the array."
+    },
+    {
+        "id": 31,
+        "text": "ova5640 - 00List Of Figures - 2-1 -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 32,
+        "text": "ova5640 - 00List Of Figures - 2-1 -  figure 2-1 OV5640 block diagram"
+    },
+    {
+        "id": 33,
+        "text": "ova5640 - 00List Of Figures - 2.4 I/O Control -  The OV5640 I/O pad direction and driving capability can be easily adjusted. **table 2-2** lists the driving capability and direction control registers of the I/O pads."
+    },
+    {
+        "id": 34,
+        "text": "ova5640 - 00List Of Figures - 2.4 I/O Control -  table 2-2 driving capability and direction control for I/O pads (sheet 2 of 2)"
+    },
+    {
+        "id": 35,
+        "text": "ova5640 - 00List Of Figures - 2.5 System Clock Control -  The OV5640 PLL allows for an input clock frequency ranging from 6~27 MHz and has a maximum VCO frequency of 800 MHz. MipiClk is for the MIPI and SysClk is for the internal clock of the Image Signal Processing (ISP) block. The PLL can be bypassed by setting register 0x3039[7] to 1."
+    },
+    {
+        "id": 36,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  The Serial Camera Control Bus (SCCB) interface controls the image sensor operation. Refer to the OmniVision Technologies Serial Camera Control Bus (SCCB) Specification for detailed usage of the serial control port. Group write is supported in order to update a group of registers in the same frame. These registers are guaranteed to be written prior to the internal latch at the frame boundary."
+    },
+    {
+        "id": 37,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  The OV5640 supports up to four groups. These groups share 1 KB RAM and the size of each group is programmable by adjusting the start address. The group hold start addresses range from 0x40 to 0x7F, where the unit is 16 bytes."
+    },
+    {
+        "id": 38,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  table 2-3 group sharing registers"
+    },
+    {
+        "id": 39,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  2-7"
+    },
+    {
+        "id": 40,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  The group write function is controlled by register **0x3212**."
+    },
+    {
+        "id": 41,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  The SCCB will enter group write mode after writing to register **0x3212** with a valid group ID. The subsequent registers will be held to the buffer specified by the group_id instead of writing to the registers. Make sure the number of registers does not exceed the capacity of the group. Setting group_hold_end to 1 will exit the group write mode. After that, setting both group_launch and group_launch_en to 1 will write the buffered values to the real registers. Multiple groups of registers can be prepared before writing to the real registers but be sure the correct group_id is specified when the group write is launched."
+    },
+    {
+        "id": 42,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  The following is an example demonstrating the group write operation: 78 3212 00 Enable group0 78 3601 01 78 3212 10 End group0 78 3600 00 Write registers to be held in group0 2-9"
+    },
+    {
+        "id": 43,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  78 3212 01 Enable group1"
+    },
+    {
+        "id": 44,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  78  3603  03"
+    },
+    {
+        "id": 45,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  78 3212 11 End group1"
+    },
+    {
+        "id": 46,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  78 3602 02 Write registers to be held in group1 ......................... Other direct register access"
+    },
+    {
+        "id": 47,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  78  3605  05"
+    },
+    {
+        "id": 48,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  78 3212 02 Enable group2"
+    },
+    {
+        "id": 49,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  78 3212 12 End group2"
+    },
+    {
+        "id": 50,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  78 3604 04 Write registers to be held in group2 78 3212 A0 Launch group0 ......................... Other direct register access"
+    },
+    {
+        "id": 51,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  3607 78  3212  13  End group3"
+    },
+    {
+        "id": 52,
+        "text": "ova5640 - 00List Of Figures - 2.6 Sccb Interface -  78 3212 03 Enable group3 78 3606 06 Write registers to be held in group3"
+    },
+    {
+        "id": 53,
+        "text": "ova5640 - 00List Of Figures - 2.7 Power Up Sequence -  Based on the system power configuration (1.8V or 2.8V for I/O power, using external DVDD or internal DVDD, requiring access to the I2C during power up period or not), the power up sequence will differ. If 1.8V is used for I/O power, using the internal DVDD is preferred. If 2.8V is used for I/O power, due to a high voltage drop at the internal DVDD regulator, there is a potential heat issue. Hence, for a 2.8V power system, OmniVision recommends using an external DVDD source. Due to the higher power down current when using an external DVDD source, OmniVision strongly recommends cutting off all powers, including the external DVDD, when the sensor is not in use in the case of 2.8V I/O and external DVDD."
+    },
+    {
+        "id": 54,
+        "text": "ova5640 - 00List Of Figures - 2.7.1 Power Up With Internal Dvdd -  For powering up with the internal DVDD and I2C access during the power ON period, the following conditions must occur: 1. when DOVDD and AVDD are turned ON, make sure DOVDD becomes stable before AVDD becomes stable 2. PWDN is active high with an asynchronized design (does not need clock) 3. PWDN pin tied to digital ground if it is not controlled."
+    },
+    {
+        "id": 55,
+        "text": "ova5640 - 00List Of Figures - 2.7.1 Power Up With Internal Dvdd -  4. if PWDN pin is controlled as below, for PWDN to go low, power must first become stable (AVDD to PWDN ≥ 5 ms) 5. RESETB is active low with an asynchronized design 6. master clock XVCLK should provide at least 1 ms before host accesses the sensor's registers 7. host can access I2C bus (if shared) during entire period. 20ms after RESETB goes high, host can access the sensor's registers to initialize sensor"
+    },
+    {
+        "id": 56,
+        "text": "ova5640 - 00List Of Figures - 2.7.1 Power Up With Internal Dvdd -  figure 2-3 power up timing with internal DVDD note t0 ≥ 0ms, delay from DOVDD stable to AVDD stable, it is recommended to power up AVDD shortly after DOVDD has been powered up t1 ≥ 0ms, delay from XVCLK off to AVDD off t2 ≥ 5ms, delay from AVDD stable to sensor power up stable, PWDN can be pulled low after this point, XVCLK can be turned on after power on t3 ≥ 1ms, delay from sensor power up stable to RESETB pull up t4 ≥ 20ms, delay from RESETB pull high to SCCB initialization t5 ≥ 0ms, delay from AVDD off to DOVDD off t6 ≥ 0ms, delay from RESETB pull low to AVDD off 5640_DS_2_2"
+    },
+    {
+        "id": 57,
+        "text": "ova5640 - 00List Of Figures - 2.7.2 Power Up With External Dvdd Source -  For powering up with an external DVDD source and I2C access during the power ON period, the following conditions must occur: 1. when DOVDD and AVDD are turned ON, make sure DOVDD becomes stable before AVDD becomes stable 2. when AVDD and DVDD are turned ON, make sure AVDD becomes stable before DVDD becomes stable 3. PWDN is active high with an asynchronized design (does not need clock), PWDN pin tied to digital ground if it is not controlled 4. if PWDN pin is controlled as below, for PWDN to go low, power must first become stable (DVDD to PWDN ≥ 5 ms) 5. all powers are cut off when the camera is not in use (power down mode is not recommended) 6. RESETB is active low with an asynchronized design 7. master clock XVCLK should provide at least 1 ms before host accesses the sensor's registers 8. host can access I2C bus (if shared) during entire period. 20ms after RESETB goes high, host can access the sensor's registers to initialize sensor"
+    },
+    {
+        "id": 58,
+        "text": "ova5640 - 00List Of Figures - 2-11 -  figure 2-4 power up timing with external DVDD source note t0 ≥ 0 ms: delay from DOVDD stable to AVDD stable, it is recommended to power up AVDD shortly after DOVDD has been powered up t1 ≥ 0 ms: delay from AVDD stable to DVDD stable t2 ≥ 5 ms: delay from DVDD stable to sensor power up stable t3 ≥ 1ms, delay from sensor power up stable to RESETB pull up t4 ≥ 20ms, delay from RESETB pull high to SCCB initialization t5 ≥ 0ms, delay from AVDD off to DOVDD off t6 ≥ 0ms, delay from RESETB pull low to DVDD off t7 ≥ 0ms, delay from XVCLK off to DVDD off 5640_DS_2_3"
+    },
+    {
+        "id": 59,
+        "text": "ova5640 - 00List Of Figures - 2.8 Reset -  The OV5640 sensor includes a **RESETB** pin that forces a complete hardware reset when it is pulled low (GND). The OV5640 clears all registers and resets them to their default values when a hardware reset occurs. A reset can also be initiated through the SCCB interface by setting register **0x3008**[7] to high."
+    },
+    {
+        "id": 60,
+        "text": "ova5640 - 00List Of Figures - 2.8 Reset -  Manually applying a hard reset upon power up is required even though on-chip reset is included. The hard reset is active low with an asynchronized design. The reset pulse width should be greater than or equal to 1 ms."
+    },
+    {
+        "id": 61,
+        "text": "ova5640 - 00List Of Figures - 2.9 Hardware And Software Standby -  Two suspend modes are available for the OV5640: - hardware standby - SCCB software standby To initiate hardware standby mode, the **PWDN** pin must be tied to high (while in MIPI mode, set register 0x300E[4:3] to 2'b11 before the PWDN pin is set to high). When this occurs, the OV5640 internal device clock is halted and all internal counters are reset and registers are maintained."
+    },
+    {
+        "id": 62,
+        "text": "ova5640 - 00List Of Figures - 2.9 Hardware And Software Standby -  Executing a software standby through the SCCB interface suspends internal circuit activity but does not halt the device clock. All register content is maintained in standby mode."
+    },
+    {
+        "id": 63,
+        "text": "ova5640 - 00List Of Figures - 2-13 -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 64,
+        "text": "ova5640 - 00List Of Figures - 3 Block Level Description 3.1 Pixel Array Structure -  The OV5640 sensor has an image array of 2624 columns by 1964 rows (5,153,536 pixels). **figure 3-1** shows a cross-section of the image sensor array."
+    },
+    {
+        "id": 65,
+        "text": "ova5640 - 00List Of Figures - 3 Block Level Description 3.1 Pixel Array Structure -  The color filters are arranged in a Bayer pattern. The primary color BG/GR array is arranged in line-alternating fashion."
+    },
+    {
+        "id": 66,
+        "text": "ova5640 - 00List Of Figures - 3 Block Level Description 3.1 Pixel Array Structure -  Of the 5,153,536 pixels, 5,038,848 (2592x1944) are active pixels and can be output. The other pixels are used for black level calibration and interpolation. The sensor array design is based on a field integration readout system with line-by-line transfer and an electronic shutter with a synchronous pixel readout scheme."
+    },
+    {
+        "id": 67,
+        "text": "ova5640 - 00List Of Figures - 3 Block Level Description 3.1 Pixel Array Structure -  figure 3-1 sensor array region color filter layout"
+    },
+    {
+        "id": 68,
+        "text": "ova5640 - 00List Of Figures - 3.2 Binning -  Binning mode is usually used for subsampling. During subsampling, information is periodically dropped when data is output. When the binning function is ON, voltage levels of adjacent pixels are averaged before being sent to the ADC. If the binning function is OFF, the pixels, which are not output, are merely skipped. The OV5640 supports 2x2, 1x2, and 2x1 binning. figure 3-2 illustrates 2x2 binning, where the voltage levels of four (2x2) adjacent same-color pixels are averaged before entering the ADC."
+    },
+    {
+        "id": 69,
+        "text": "ova5640 - 00List Of Figures - 3.2 Binning -  In OV5640, vertical binning will automatically turn on when in vertical-subsampled formats."
+    },
+    {
+        "id": 70,
+        "text": "ova5640 - 00List Of Figures - 3.2 Binning -  figure 3-2 example of 2x2 binning"
+    },
+    {
+        "id": 71,
+        "text": "ova5640 - 00List Of Figures - 3.2 Binning -  table 3-1 binning-related registers"
+    },
+    {
+        "id": 72,
+        "text": "ova5640 - 3.3 Vcm Driver -  figure 3-3 VCM block diagram"
+    },
+    {
+        "id": 73,
+        "text": "ova5640 - 3.3 Vcm Driver -  The maximum SINK current can be estimated as: - ISINK = (Vvcm - Vds) / (Rs + Rvcm + Rp1 + Rp2) - Vds is the transistor headroom - Rp1 and Rp2 are the resistance in the current path - RVCM is the resistance of the voice coil motor. The OV5640 VCM driver is a single 10-bit DAC with 100 mA output current sink capability. It is designed for linear control of the VCM. The DAC is controlled via the SCCB interface with clock rates up to 400 Hz. The OV5640 VCM driver provides three types of output current control modes that allow users to adjust transient response of the sinking current."
+    },
+    {
+        "id": 74,
+        "text": "ova5640 - 3.3 Vcm Driver - 3.3.1 Output Current Control Mode -  The OV5640 VCM driver uses 4 bits (S3, S2, S1, and S0) to control the output current response."
+    },
+    {
+        "id": 75,
+        "text": "ova5640 - 3.3 Vcm Driver - 3.3.1 Output Current Control Mode -  1. S[3:0] = X000: Directly jump mode: code directly jumps to target code. Output current transient response time (see table 3-2.) 2. S[3:0] = 0001 to 0111: Single step mode: code increases/decreases by a single step. Single step time durations are 50µs, 100µs, 200µs, 400µs, 800µs, 1600µs, and 3200µs, which are controlled by S2, S1, and S0 (see table 3-4.) 3. S[3:0] = 1001 to 1111: Multi-code steps mode: Code increases/decreases in multi-code steps. If the target code and the current code have a difference larger than 128, the 64-code step is applied first. When the difference in between target and current codes is no more than 128 but larger than 16, the 16-code step is used. When the difference is less than 16, it will directly jump to the target code. Single step time options are 50µs, 100µs, 200µs, 400µs, 800µs, 1600µs, and 3200µs, which are controlled by S2, S1, and S0, (see table 3-5.)"
+    },
+    {
+        "id": 76,
+        "text": "ova5640 - 3.3 Vcm Driver - 3-3 -  table 3-2 VCM driver control"
+    },
+    {
+        "id": 77,
+        "text": "ova5640 - 3.3 Vcm Driver - 3-3 -  single step  mode"
+    },
+    {
+        "id": 78,
+        "text": "ova5640 - 3.3 Vcm Driver - 3-3 -  table 3-4 single step mode table 3-5 multi-code step mode"
+    },
+    {
+        "id": 79,
+        "text": "ova5640 - 3.3 Vcm Driver - 3-3 -  a. a full scale transition includes fourteen 64-code steps, seven 16-code steps and one directly jump step."
+    },
+    {
+        "id": 80,
+        "text": "ova5640 - 3.3 Vcm Driver - 3-3 -  3-5 OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 81,
+        "text": "ova5640 - 3.3 Vcm Driver - 3-3 -  figure 3-4 1/4 to 3/4 scale settling time (directly jump mode, VDD = 3.0V)"
+    },
+    {
+        "id": 82,
+        "text": "ova5640 - 3.3 Vcm Driver - 4 Image Sensor Core Digital Functions 4.1 Mirror And Flip -  The OV5640 provides Mirror and Flip readout modes, which respectively reverse the sensor data readout order horizontally and vertically (see **figure 4-1**). In flip, the OV5640 does not need additional settings because the ISP block will auto-detect whether the pixel is in the red line or blue line and make the necessary adjustments."
+    },
+    {
+        "id": 83,
+        "text": "ova5640 - 3.3 Vcm Driver - 4 Image Sensor Core Digital Functions 4.1 Mirror And Flip -  figure 4-1 mirror and flip samples"
+    },
+    {
+        "id": 84,
+        "text": "ova5640 - 3.3 Vcm Driver - 4 Image Sensor Core Digital Functions 4.1 Mirror And Flip -  table 4-1 mirror and flip registers"
+    },
+    {
+        "id": 85,
+        "text": "ova5640 - 3.3 Vcm Driver - 4 Image Sensor Core Digital Functions 4.1 Mirror And Flip -  4-1 OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 86,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.2 Image Windowing -  The OV5640 uses registers 0x3800 ~ 0x3814 for image windowing. **figure 4-2** illustrates how the registers define the windowing size. Physical pixel size is the total pixel array size we have in the sensor. The ISP input size is the total pixel data read from pixel array. Typically, the larger ISP input size is, the less maximum frame rate can be reached. The data output size is the image output size of OV5640. This size is windowed from ISP input size and is defined by x_offset and y_offset as **figure 4-2** shows."
+    },
+    {
+        "id": 87,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.2 Image Windowing -  figure 4-2 image windowing"
+    },
+    {
+        "id": 88,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.2 Image Windowing -  figure 4-3 shows the windowing configuration when scaling function is enabled. The pre-scaling image size is the ISP input size subtracted by two times of offsets for both horizontal and vertical."
+    },
+    {
+        "id": 89,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.2 Image Windowing -  figure 4-3 image windowing configuration table 4-2 image windowing registers (sheet 1 of 2)"
+    },
+    {
+        "id": 90,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.2 Image Windowing -  table 4-2 image windowing registers (sheet 2 of 2)"
+    },
+    {
+        "id": 91,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.3 Test Pattern -  For testing purposes, the OV5640 offers one type of test pattern, color bar."
+    },
+    {
+        "id": 92,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.3 Test Pattern -  figure 4-4 test pattern"
+    },
+    {
+        "id": 93,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.4 50/60Hz Detection 4.4.1 Overview -  When the integration time is not an integer multiple of the period of light intensity, the image will flicker. The function of the detector is to detect whether the sensor is under a 50 Hz or 60 Hz light source so that the basic step of integration time can be determined. Contact your local OmniVision FAE for auto detection settings."
+    },
+    {
+        "id": 94,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.5 Aec/Agc Algorithms 4.5.1 Overview -  The Auto Exposure Control (AEC) and Auto Gain Control (AGC) allows the image sensor to adjust the image brightness to a desired range by setting the proper exposure time and gain applied to the image. Besides automatic control, exposure time and gain can be set manually from external control. The related registers are listed in **table 4-4**."
+    },
+    {
+        "id": 95,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.5.2 Average-Based Algorithm -  The average-based AEC controls image luminance using registers (0x3A0F), (0x3A10), (0x3A1B), and (0x3A1E). In average-based mode, the value of register (0x3A0F) indicates the high threshold value, and the value of register (0x3A10) indicates the low threshold value. The value of register (0x3A1B) indicates the high threshold value for image change from stable state to unstable state and the value of register (0x3A1E) indicates the low threshold value for image change from stable state to unstable state. When the target image luminance average value AVG READOUT (0x56A1) is within the range specified by registers (0x3A1B) and (0x3A1E), the AEC keeps the image exposure and gain. When register AVG READOUT (0x56A1) is greater than the value in register (0x3A1B), the AEC will decrease the image exposure and gain until it falls into the range of {0x3A10, 0x3A0F}. When register AVG READOUT (0x56A1) is less than the value in register (0x3A1E), the AEC will increase the image exposure and gain until it falls into the range of {0x3A10, 0x3A0F}. Accordingly, the value in register (0x3A0F) should be greater than the value in register (0x3A10). The gap between the values of registers (0x3A1B) and (0x3A1E) controls the image stability."
+    },
+    {
+        "id": 96,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.5.2 Average-Based Algorithm -  The AEC function supports both manual and auto speed selections in order to bring the image exposure into the range set by the values in registers (0x3A0F) and (0x3A10). For manual mode, the speed supports both normal and fast speed selection. AEC set to normal mode will allow for the slowest step increment or decrement in the image exposure to maintain the specified range. AEC set to fast mode will provide for an approximate ten-step increment or decrement in the image exposure to maintain the specified range. For auto mode, the speed step will automatically be adjusted according to the difference between the target and present values. The auto ratio of steps can be set by register bits AVG READOUT (0x56A1); thus, the AEC speed can be adjusted automatically by the image average value or controlled manually."
+    },
+    {
+        "id": 97,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.5.2 Average-Based Algorithm -  Register (0x3A11) and register (0x3A1F) controls the fast AEC range in manual speed selection made. If the target image AVG READOUT (0x56A1) is greater than (0x3A11), AEC will decrease by half. If register AVG READOUT (0x56A1) is less than (0x3A1F), AEC will double. As shown in desired convergence, the AEC/AGC convergence uses two regions, the inner stable operating region and the outer control zone, which defines the convergence step size of fast and slow conditions."
+    },
+    {
+        "id": 98,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.5.2 Average-Based Algorithm -  figure 4-5 desired convergence As for auto mode, the AEC will automatically calculate the steps needed based on the difference between target and current values. So, the outer control zone is meaningless for this mode."
+    },
+    {
+        "id": 99,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.5.2 Average-Based Algorithm -  4-7"
+    },
+    {
+        "id": 100,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.5.2 Average-Based Algorithm -  table 4-5 AEC/AGC control functions"
+    },
+    {
+        "id": 101,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.5.2 Average-Based Algorithm -  For the average-based AEC/AGC algorithm, the measured window is horizontally and vertically adjustable and divided by sixteen (4x4) zones (see **figure 4-6**). Each zone (or block) is 1/16th of the image and has a 4-bit weight in calculating the average luminance (YAVG). The 4-bit weight could be n/16 where n is from 0 to 15. The final YAVG is the weighted average of the sixteen zones."
+    },
+    {
+        "id": 102,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.5.2 Average-Based Algorithm -  4.5.2.1 average luminance (YAVG) Auto exposure time calculation is based on a frame brightness average value. By properly setting x_start, x_end, y_start, and y_end as shown in **figure 4-6**, a 4x4 grid average window is defined. It will automatically divide each zone into 4x4 zones. The average value is the weighted average of the 16 sections. **table 4-6** lists the corresponding registers."
+    },
+    {
+        "id": 103,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.5.2 Average-Based Algorithm -  figure 4-6 average-based window definition"
+    },
+    {
+        "id": 104,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.5.2 Average-Based Algorithm -  table 4-6 timing control functions (sheet 2 of 2)"
+    },
+    {
+        "id": 105,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6 Aec/Agc Steps -  The AEC and AGC work together to obtain adequate exposure/gain based on the current environmental illumination. In order to achieve the best SNR, extending the exposure time is always preferred rather than raising the gain when the current illumination is getting brighter. Vice versa, under dark conditions, the action to decrease the gain is always taken prior to shortening the exposure time."
+    },
+    {
+        "id": 106,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.1 Auto Exposure Control (Aec) -  The function of the AEC is to calculate the integration time of the next frame and send the information to the timing control block. Based on the statistics of previous frames, the AEC is able to determine whether the integration time should increase, decrease, fast increase, fast decrease, or remain the same."
+    },
+    {
+        "id": 107,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.1 Auto Exposure Control (Aec) -  To avoid image flickering under a periodic light source, the integration time can be adjusted in steps of integer multiples of the period of the light source. This new AEC step system is called the banding filter, suggesting that the exposure time is not continuous but falls in some steps."
+    },
+    {
+        "id": 108,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.1 Auto Exposure Control (Aec) -  4.6.1.1 banding mode ON with AEC In Banding ON mode, the exposure time will fall in steps of integer multiples of the period of light intensity. This design is to reject image flickering when the light source is not steady but periodical. For a given light flickering frequency, the band step can be expressed in units of row period."
+    },
+    {
+        "id": 109,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.1 Auto Exposure Control (Aec) -  Band Step = 'period of light intensity' × 'frame rate' × 'rows per frame'."
+    },
+    {
+        "id": 110,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.1 Auto Exposure Control (Aec) -  The band steps for 50Hz and 60Hz light sources can be set in registers {0x3A08[1:0], 0x3A09[7:0]} and {0x3A0A[1:0], 0x3A0B[7:0]}, respectively."
+    },
+    {
+        "id": 111,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.1 Auto Exposure Control (Aec) -  When auto-banding is ON, if the next integration time is less than the minimum band step, banding will automatically turn OFF. It will turn ON again when the next integration time becomes larger than the minimum band. If auto banding is disabled, the minimum integration time is one band step. Auto banding can be set in register bit 0x3A00[5]. 4.6.1.2 banding mode OFF with AEC When banding mode is OFF, integration time increases/decreases as normal. It is not necessarily multiples of band steps."
+    },
+    {
+        "id": 112,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.1 Auto Exposure Control (Aec) -  4.6.1.3 night mode The OV5640 supports long integration time such as 1 frame, 2 frames, 3 frames, 4 frames, 5 frames, 6 frames, 7 frames, and 8 frames in dark conditions.This is achieved by slowing down the original frame rate and waiting for exposure. Night mode ceiling can be set in register bits {0x3A02[7:0], 0x3A03[7:0], 0x3A14[7:0], 0x3A15[7:0]}. Night mode can be disabled by setting register bit 0x3A00[2] to 0. Also, when in night mode, the increase and decrease step can be based on band or frames, depending on register 0x3A05[6]. The minimum increase/decrease step can be one band. The step can be based both on bands and frames."
+    },
+    {
+        "id": 113,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.2 Manual Exposure Control -  To manually change exposure value, you must first set both 0x3503[0], where 0x3503[0] enables manual exposure control. In auto exposure mode, the extra exposure values (larger than 1 frame) in registers 0x350C/0x350D automatically change. In manual exposure mode, these registers will not automatically change. The manually set"
+    },
+    {
+        "id": 114,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.2 Manual Exposure Control -  exposure in registers 0x3500~0x3502 must be less than the maximum exposure value in {0x380E, 0x380F} + {0x350C,0x350D}. The exposure value in registers 0x3500~0x3502 is in units of line*16 - the low 4 bits (0x3502[3:0]) is the fraction of line, the maximum value in {0x380E + 0x380F} + {0x350C, 0x350D} is in unit of line. If the manually set exposure value is less than one pre-defined frame period (e.g., 1/15 second in 15fps), there is no need to change 0x380E/0x380F. If the exposure value needs to be set beyond the pre-defined frame period; in other words, if the frame period needs to be extended to extend exposure time, then the maximum frame value in 0x380E/0x380F needs to be set first, then the exposure can be set in registers 0x3500~0x3502 accordingly."
+    },
+    {
+        "id": 115,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.3 Auto Gain Control (Agc) -  Unlike prolonging integration time, increasing gain will amplify both signal and noise. Thus, AGC usually starts after AEC is full. However, in cases where adjacent AEC step changes are too large (>1/16), AGC steps should be inserted in between; otherwise, the integration time will keep switching between two adjacent steps and the image flickers."
+    },
+    {
+        "id": 116,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.3 Auto Gain Control (Agc) -  4.6.3.1 integration time between 1~16 rows When integration time is less than 16 rows, the changes between adjacent AEC steps are larger than 1/16, which may possibly make the image oscillate between two AEC levels; thus, some AGC steps are added in between."
+    },
+    {
+        "id": 117,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.3 Auto Gain Control (Agc) -  4.6.3.2 gain insertion between AEC banding steps When banding mode is ON, the integration time changes in step of the period of light intensity. For the first 16 band steps, since the exposure time change between adjacent steps is larger than 1/16, AGC steps are inserted to ensure image stability."
+    },
+    {
+        "id": 118,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.3 Auto Gain Control (Agc) -  4.6.3.3 gain insertion between night mode steps Between night mode steps (e.g., integration time = 1 frame and 2 frames), AGC steps are inserted to ensure no adjacent step change is larger than 1/16."
+    },
+    {
+        "id": 119,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.3 Auto Gain Control (Agc) -  4.6.3.4 when AEC reaches maximum When AEC reaches its maximum step while the image is still too dark, the gain starts to increase until the new frame average falls into the stable range or AGC reaches its maximum step. The AGC ceiling can be set in {0x3A18[9:8], 0x3A19[7:0]}."
+    },
+    {
+        "id": 120,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.6.4 Manual Gain Control -  To manually change gain, first set register bit 0x3503[1] to enable manual control, then change the values in 0x350A/0x350B for the manual gain. The OV5640 has a maximum of 64x gain."
+    },
+    {
+        "id": 121,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.7 Black Level Calibration (Blc) -  The pixel array contains several optically shielded (black) lines. These lines are used as reference for black level calibration. There are three main functions of the BLC: - Combining two ADC data paths into one data path - Adjusting all normal pixel values based on the values of the black levels - Applying multiplication to all pixel values based on digital gain Black level adjustments can be made with registers 0x4000 through 0x4013."
+    },
+    {
+        "id": 122,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.7 Black Level Calibration (Blc) -  table 4-7 BLC control functions"
+    },
+    {
+        "id": 123,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.8 Light Frequency Selection -  The OV5640 can detect the light flickering frequency. When this function is enabled, the sensor can detect the light frequency and select the corresponding banding filter value. To remove banding, the banding filter should be turned on and the banding filter value should be set to the appropriate value."
+    },
+    {
+        "id": 124,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.8 Light Frequency Selection -  table 4-8 light frequency registers"
+    },
+    {
+        "id": 125,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.9 Digital Gain -  The OV5640 supports 1/2/4 digital gain. Normally, the gain is controlled automatically by the automatic gain control (AGC) block."
+    },
+    {
+        "id": 126,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10 Strobe Flash And Frame Exposure 4.10.1 Strobe Flash Control -  The strobe signal is programmable. It supports both LED and Xenon modes. The polarity of the pulse can be changed."
+    },
+    {
+        "id": 127,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10 Strobe Flash And Frame Exposure 4.10.1 Strobe Flash Control -  The strobe signal is enabled (turned high/low depending on the pulse's polarity) by requesting the signal via the SCCB interface. Flash modules are triggered by the rising edge by default or by the falling edge if the signal polarity is changed."
+    },
+    {
+        "id": 128,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10 Strobe Flash And Frame Exposure 4.10.1 Strobe Flash Control -  It supports the following flashlight modes (see **table 4-9**)."
+    },
+    {
+        "id": 129,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10 Strobe Flash And Frame Exposure 4.10.1 Strobe Flash Control -  table 4-9 flashlight modes"
+    },
+    {
+        "id": 130,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.1.1 Xenon Flash Control -  After a strobe request is submitted, the strobe pulse will be activated at the beginning of the third frame (see figure 4-7). The third frame will be correctly exposed. The pulse width can be changed in Xenon mode between 1H and 4H, depending on register 0x3B00[3:2], where H is one row period."
+    },
+    {
+        "id": 131,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.1.1 Xenon Flash Control -  figure 4-7 xenon flash mode"
+    },
+    {
+        "id": 132,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.1.1 Xenon Flash Control -  4.10.1.2 LED 1 & 2 mode Two frames after the strobe request is submitted, the third frame is correctly exposed. The strobe pulse will be activated only one time if the strobe end request is set correctly (see **figure 4-8**). If end request is not sent, the strobe signal is activated intermittently until the strobe end request is set (see **figure 4-9**). The number of skipped frames is programmable using registers {0x3A1C, 0x3A1D}."
+    },
+    {
+        "id": 133,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.1.1 Xenon Flash Control -  figure 4-8 LED 1 & 2 mode - one pulse output"
+    },
+    {
+        "id": 134,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.1.1 Xenon Flash Control -  figure 4-9 LED 1 & 2 mode - multiple pulse output"
+    },
+    {
+        "id": 135,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.1.1 Xenon Flash Control -  4.10.1.3 LED 3 mode In LED 3 mode, the strobe signal stays active until the strobe end request is sent (see **figure 4-10**)."
+    },
+    {
+        "id": 136,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.1.1 Xenon Flash Control -  figure 4-10 LED 3 mode"
+    },
+    {
+        "id": 137,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  In FREX mode, whole frame pixels start integration at the same time, rather than integrating row by row. After the user-defined exposure time (registers {0x3B04, 0x3B05}), the shutter closes, preventing further integration and the image begins to read out. After the readout finishes, the shutter opens again and the sensor resumes normal mode, waiting for the next FREX request."
+    },
+    {
+        "id": 138,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  The OV5640 supports two modes of FREX (see **figure 4-11**): - mode 1 - frame exposure and shutter control requests come from the external system via the FREX pin. The sensor will send a strobe output signal to control the flash light."
+    },
+    {
+        "id": 139,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  - mode 2 - frame exposure request comes from the external system via the I2C register 0x3B08[0]. The sensor will output two signals, shutter control signal through the FREX pin and strobe signal through the STROBE pin."
+    },
+    {
+        "id": 140,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  figure 4-11 FREX modes"
+    },
+    {
+        "id": 141,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  In mode 1, the FREX pin is configured as an input while it is configured as an output in mode 2. In both mode 1 and mode 2, the strobe output is irrelevant with the rolling strobe function. When in rolling shutter mode, the strobe function and this FREX/shutter control function do not work at the same time."
+    },
+    {
+        "id": 142,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  4.10.3 FREX strobe flash control See **table 4-10** for FREX strobe control functions."
+    },
+    {
+        "id": 143,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  address register name"
+    },
+    {
+        "id": 144,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  default"
+    },
+    {
+        "id": 145,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  value R/W description"
+    },
+    {
+        "id": 146,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  Bit[2:0]: FREX precharge length"
+    },
+    {
+        "id": 147,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  000: 1/16 Tline 001: 1/8 Tline 010: 1/4 Tline"
+    },
+    {
+        "id": 148,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  011: 1/2 Tline"
+    },
+    {
+        "id": 149,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  100: 1 Tline 101: 2 Tline 110: 4 Tline 111: 8 Tline"
+    },
+    {
+        "id": 150,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  0x3B0B STROBE WIDTH 0x00 RW Bit[7:0]: Strobe width[19:12] 0x3B0C STROBE WIDTH 0x3D RW Bit[7:0]: Strobe width[11:4]"
+    },
+    {
+        "id": 151,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.10.2 Frame Exposure (Frex) Mode -  table 4-10 FREX strobe control functions (sheet 2 of 2)"
+    },
+    {
+        "id": 152,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  The OV5640 supports a maximum of 256 bits of one-time programmable (OTP) memory to store chip identification and manufacturing information."
+    },
+    {
+        "id": 153,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  table 4-11 OTP control functions"
+    },
+    {
+        "id": 154,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  address register name"
+    },
+    {
+        "id": 155,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  default value R/W description"
+    },
+    {
+        "id": 156,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  Bit[7]: OTP read busy"
+    },
+    {
+        "id": 157,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  Bit[1]: OTP read speed"
+    },
+    {
+        "id": 158,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  0: Fast 1: Slow"
+    },
+    {
+        "id": 159,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  Bit[0]: OTP read enable"
+    },
+    {
+        "id": 160,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  0x3D00 OTP DATA00b 0x00 RW OTP Dump/Load Data00 0x3D01 OTP DATA01b 0x00 RW OTP Dump/Load Data01"
+    },
+    {
+        "id": 161,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  0x3D02 OTP DATA02b 0x00 RW OTP Dump/Load Data02"
+    },
+    {
+        "id": 162,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  0x3D03 OTP DATA03b 0x00 RW OTP Dump/Load Data03"
+    },
+    {
+        "id": 163,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  0x3D04 OTP DATA04b 0x00 RW OTP Dump/Load Data04"
+    },
+    {
+        "id": 164,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  0x3D05 OTP DATA05 0x00 RW OTP Dump/Load Data05 0x3D06 OTP DATA06 0x00 RW OTP Dump/Load Data06"
+    },
+    {
+        "id": 165,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  default value  R/W  description Bit[7]: OTP program busy Bit[1]: OTP program speed 0: Fast  1: Slow Bit[0]: OTP program enable Bit[7]: OTP read busy Bit[1]: OTP read speed 0: Fast  1: Slow Bit[0]: OTP read enable"
+    },
+    {
+        "id": 166,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  a. AVDD must be 2.1V ± 5% when writing/programming OTP, otherwise there will be reliability issues. There is no"
+    },
+    {
+        "id": 167,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  such limitation when reading OTP under normal operating conditions."
+    },
+    {
+        "id": 168,
+        "text": "ova5640 - 3.3 Vcm Driver - 4.11 One Time Programmable (Otp) Memory -  b. 0x3D00~0x3D04 are reserved for omnivision internal use only"
+    },
+    {
+        "id": 169,
+        "text": "ova5640 - 3.3 Vcm Driver - 5 Image Sensor Processor Digital Functions 5.1 Isp General Controls -  The ISP module provides lens correction, gamma, de-noise, sharpen, auto focus, etc. These functions are enabled by registers 0x5000 ~ 0x5005."
+    },
+    {
+        "id": 170,
+        "text": "ova5640 - 3.3 Vcm Driver - 5 Image Sensor Processor Digital Functions 5.1 Isp General Controls -  5-1"
+    },
+    {
+        "id": 171,
+        "text": "ova5640 - 3.3 Vcm Driver - 5 Image Sensor Processor Digital Functions 5.1 Isp General Controls -  table 5-1 ISP general control registers (sheet 2 of 3)"
+    },
+    {
+        "id": 172,
+        "text": "ova5640 - 3.3 Vcm Driver - 5 Image Sensor Processor Digital Functions 5.1 Isp General Controls -  5-3"
+    },
+    {
+        "id": 173,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.2 Lens Correction (Lenc) -  The main purpose of the LENC is to compensate for lens imperfection. According to the area where each pixel is located, the module calculates a gain for the pixel, correcting each pixel with its gain calculated to compensate for the light distribution due to lens curvature. The LENC correcting curve automatic calculation according sensor gain is also added so that the LENC can adapt with the sensor gain. Also, the LENC supports the subsample function in both horizontal and vertical directions. Contact your local OmniVision FAE for lens correction settings (registers 0x5800~0x5849)."
+    },
+    {
+        "id": 174,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.2 Lens Correction (Lenc) -  5-5"
+    },
+    {
+        "id": 175,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.3 Auto White Balance (Awb) -  The main function of Auto White Balance (AWB) is the process of removing unrealistic color casts so that objects which appear white in person are rendered white in the image or video. Thus, the AWB makes sure that the white color is always a white color in different color temperatures. It supports manual white balance and auto white balance. For auto white balance, simple AWB and advanced AWB methods are supplied. Advance AWB takes into account the *color* temperature of a light source. For advanced AWB settings, contact your local OmniVision FAE."
+    },
+    {
+        "id": 176,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.4 Raw Gamma -  The main purpose of the Gamma (GMA) function is to compensate for the non-linear characteristics of the sensor. GMA converts the pixel values according to the Gamma curve to compensate the sensor output under different light strengths. The non-linear gamma curve is approximately constructed with different linear functions. Raw gamma compensates the image in the RAW domain."
+    },
+    {
+        "id": 177,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.5 Defect Pixel Cancellation (Dpc) -  Due to processes and other reasons, pixel defects in the sensor array will occur. Thus, these bad or wounded pixels will generate wrong color values. The main purpose of Defect Pixel Cancellation (DPC) function is to remove the effect caused by these bad or wounded pixels. Also, some special functions are available for those pixels located at the image boundary. To remove the defect pixel effect correctly, the proper threshold should first be determined."
+    },
+    {
+        "id": 178,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.5 Defect Pixel Cancellation (Dpc) -  table 5-5 DPC control registers"
+    },
+    {
+        "id": 179,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.5 Defect Pixel Cancellation (Dpc) -  5-9"
+    },
+    {
+        "id": 180,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.6 Color Interpolation (Cip) -  The CIP functions include de-noising of raw images, RAW to RGB interpolation, and edge enhancement. In sensor RAW format, each pixel will be either R, G or B. CIP will calculate the other two color values using the neighboring pixel of the same color. Thus, we can get the full RGB information for each pixel. For edge enhancement, the OV5640 provides both manual and auto modes."
+    },
+    {
+        "id": 181,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.6 Color Interpolation (Cip) -  table 5-6 CIP control registers"
+    },
+    {
+        "id": 182,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.7 Color Matrix (Cmx) -  The main purpose of the Color Matrix (CMX) function is to cancel out crosstalk and convert color space. Given the color correction matrix, CCM, and RGB to YUV conversion matrix, RGB2YUV, the combined matrix is:"
+    },
+    {
+        "id": 183,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.7 Color Matrix (Cmx) -  $\\mathrm{CMX}=\\begin{bmatrix}\\mathrm{cmx00}&\\mathrm{cmx01}&\\mathrm{cmx02}\\\\ \\mathrm{cmx10}&\\mathrm{cmx11}&\\mathrm{cmx12}\\\\ \\mathrm{cmx20}&\\mathrm{cmx21}&\\mathrm{cmx22}\\end{bmatrix}=\\mathrm{RGB2YUV}\\times\\mathrm{CCM}\\times\\begin{bmatrix}1&.0.25&0.75\\\\ 1&.0.25&.0.25\\\\ 1&0.75&.0.25\\end{bmatrix}$ $${\\mathrm{~where~}}\\left[{\\begin{array}{l}{R}\\\\ {G}\\\\ {B}\\end{array}}\\right]={\\mathrm{~CCM~}}\\left[{\\begin{array}{l}{R_{0}}\\\\ {G_{0}}\\\\ {B_{0}}\\end{array}}\\right]$$ The CMX is then normalized by 20x5394[3:0]."
+    },
+    {
+        "id": 184,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.7 Color Matrix (Cmx) -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 185,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.7 Color Matrix (Cmx) -  table 5-7 CMX control registers (sheet 2 of 2)"
+    },
+    {
+        "id": 186,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.8 Uv Average -  The main function of the UV average is to average the U/V channel value using special filters."
+    },
+    {
+        "id": 187,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.8 Uv Average -  table 5-8 UV average register"
+    },
+    {
+        "id": 188,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.9 Scaling -  The main purpose of the scaling function is to zoom out the image. According to the new width and new height of the new image, the module uses the values of several pixels to generate the values of one pixel. The values of some pixels"
+    },
+    {
+        "id": 189,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.9 Scaling -  are divided and used in two or more adjacent pixels. The scaling function supports up to 32x scale."
+    },
+    {
+        "id": 190,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.9 Scaling -  table 5-9 UV average register (sheet 1 of 2)"
+    },
+    {
+        "id": 191,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.10 Uv Adjust -  The main function of the UV adjust is to adjust the U/V channel value according to sensor gain. It supports both manual and auto modes."
+    },
+    {
+        "id": 192,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.10 Uv Adjust -  The UV adjust function is integrated in SDE. The main function of the UV adjust is to adjust the U/V channel value according to sensor gain. It supports both manual and auto modes"
+    },
+    {
+        "id": 193,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.10.1 Manual Mode -  By setting SDE CTRL 0 [1] (0x5580) to 1 and SDE CTRL 8 0x5588[6] to 1, UV adjust is controlled only by register SAT U (0X5583[7:0] and SAT V (0x5584[7:0]] for U and V gains."
+    },
+    {
+        "id": 194,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.10.2 Auto Mode -  When the UV adjust is set for auto mode(0x5580[1]=1 and 0x5588[6]=0), the UV adjust curve parameters (see figure 5-1) should be entered into the corresponding registers. The UV adjust parameters, UV adj th1, UV adj th2, and offset low, offset high should be entered into the registers to set the curve. To get these values, first set the values of UV adj th1, UV adj th2, offset low and offset high. Then, calculate the values of a and k as follows: k = (offset high - offset low) / (UV adj th2 - UV adj th1) a = offset high + (offset high - offset low)/(UV adj th2 - UV adj th1) 5-13 OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology Registers to be changed: - UV adj th1[8:0] = registers 0x5589[7:0] - UV adj th2[8:0] = registers {0x558A[0], 0x558B[7:0]} - offset high = register 0x5583[7:0] (when 0x5580[1]=1 and 0x5588[6]=0) - offset low = register 0x5584[7:0] (when 0x5580[1]=1 and 0x5588[6]=0) figure 5-1 UV adjust graph"
+    },
+    {
+        "id": 195,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.11 Special Digital Effects (Sde) -  The Special Digital Effects (SDE) functions include hue/saturation control, brightness, contrast, etc. SDE also supports negative, black/white, sepia, greenish, blueish, redish, solarize and other image effects."
+    },
+    {
+        "id": 196,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.11 Special Digital Effects (Sde) -  table 5-10 SDE control registers"
+    },
+    {
+        "id": 197,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.11 Special Digital Effects (Sde) -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 198,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.12 Isp Format -  table 5-11 ISP format control registers"
+    },
+    {
+        "id": 199,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.13 Draw Window -  The draw window module is used to display a window on top of live video. It is usually used by autofocus to display a"
+    },
+    {
+        "id": 200,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.13 Draw Window -  focus window."
+    },
+    {
+        "id": 201,
+        "text": "ova5640 - 3.3 Vcm Driver - 5.13 Draw Window -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology 6-1"
+    },
+    {
+        "id": 202,
+        "text": "ova5640 - 3.3 Vcm Driver - 6 Image Sensor Output Interface Digital Functions 6.1 Compression Engine -  6.1.1 compression mode 1 timing The whole frame has only one line. PCLK will be gated when there is no valid image data transmitted."
+    },
+    {
+        "id": 203,
+        "text": "ova5640 - 3.3 Vcm Driver - 6 Image Sensor Output Interface Digital Functions 6.1 Compression Engine -  figure 6-1 compression mode 1 timing HREF"
+    },
+    {
+        "id": 204,
+        "text": "ova5640 - 3.3 Vcm Driver - 6 Image Sensor Output Interface Digital Functions 6.1 Compression Engine -  6.1.2 compression mode 2 timing Compression data is transmitted with programmable line width. PCLK is free running. The last line may contain dummy data to match the width. By default, the line number varies from frame to frame. The user can set register 4600[5] (0x4600) to ensure every frame has a fixed line number (programmable)."
+    },
+    {
+        "id": 205,
+        "text": "ova5640 - 3.3 Vcm Driver - 6 Image Sensor Output Interface Digital Functions 6.1 Compression Engine -  figure 6-2 compression mode 2 timing"
+    },
+    {
+        "id": 206,
+        "text": "ova5640 - 3.3 Vcm Driver - 6 Image Sensor Output Interface Digital Functions 6.1 Compression Engine -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 207,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.1.3 Compression Mode 3 Timing -  Compression data is transmitted with programmable width. The last line width maybe different from the other line (there is no dummy data). In each frame, the line number may be different."
+    },
+    {
+        "id": 208,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.1.3 Compression Mode 3 Timing -  figure 6-3 compression mode 3 timing"
+    },
+    {
+        "id": 209,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.1.4 Compression Mode 4 Timing -  The width and height are fixed in each frame. The first two bytes are valid data length in every line, followed by valid image data. Dummy data (0xFF) may be used as padding at each line end if the current valid image data is less than the line width."
+    },
+    {
+        "id": 210,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.1.4 Compression Mode 4 Timing -  figure 6-4 compression mode 4 timing"
+    },
+    {
+        "id": 211,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.1.4 Compression Mode 4 Timing -  5640_DS_6_4"
+    },
+    {
+        "id": 212,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.1.5 Compression Mode 5 Timing -  The width and height are fixed in each frame. Every line begins with valid image data. Dummy data may be used as padding at each line end if the current valid image data is less than the line width. The last two bytes of every line is valid data length."
+    },
+    {
+        "id": 213,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.1.5 Compression Mode 5 Timing -  figure 6-5 compression mode 5 timing"
+    },
+    {
+        "id": 214,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.1.6 Compression Mode 6 Timing -  The width and height are fixed in each frame. Every line begins with valid image data. Dummy data may be used as padding at each line end if the current valid image data less than the line width."
+    },
+    {
+        "id": 215,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.1.6 Compression Mode 6 Timing -  figure 6-6 compression mode 6 timing"
+    },
+    {
+        "id": 216,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.1.6 Compression Mode 6 Timing -  6-3"
+    },
+    {
+        "id": 217,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.1.6 Compression Mode 6 Timing -  6.1.7 compression mode control"
+    },
+    {
+        "id": 218,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.1.6 Compression Mode 6 Timing -  table 6-1 compression control registers (sheet 2 of 2)"
+    },
+    {
+        "id": 219,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  System control registers include clock, reset control, and PLL configure. Individual modules can be reset or clock gated"
+    },
+    {
+        "id": 220,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  by setting the appropriate registers."
+    },
+    {
+        "id": 221,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  6-5"
+    },
+    {
+        "id": 222,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  table 6-2 system control registers (sheet 3 of 3)"
+    },
+    {
+        "id": 223,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  address register name"
+    },
+    {
+        "id": 224,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  default"
+    },
+    {
+        "id": 225,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  value R/W description"
+    },
+    {
+        "id": 226,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  0x3008 SYSTEM CTROL0 0x02 RW"
+    },
+    {
+        "id": 227,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  System Control"
+    },
+    {
+        "id": 228,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  Bit[7]: Software reset Bit[6]: Software power down"
+    },
+    {
+        "id": 229,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  0x3034 SC PLL CONTRL0 0x1A RW"
+    },
+    {
+        "id": 230,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  Bit[6:4]: PLL charge pump control"
+    },
+    {
+        "id": 231,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  Bit[3:0]: MIPI bit mode"
+    },
+    {
+        "id": 232,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  0x8: 8-bit mode 0xA: 10-bit mode"
+    },
+    {
+        "id": 233,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  0x3036 SC PLL CONTRL2 0x69 RW"
+    },
+    {
+        "id": 234,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  Bit[7:0]: PLL multiplier (4~252)"
+    },
+    {
+        "id": 235,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  Can be any integer for 4~127 and"
+    },
+    {
+        "id": 236,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  only even integer for 128~252"
+    },
+    {
+        "id": 237,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  default value  R/W  descriptionClock Enable Control (0: disable clock; 1: enable clock) Bit[7]: Enable digital gain compensation  clock Bit[6]: Enable SYNC FIFO clock Bit[5]: Enable ISPFC SCLK clock Bit[4]: Enable MIPI PCLK clock Bit[3]: Enable MIPI clock Bit[2]: Enable DVP PCLK clock Bit[1]: Enable VFIFO PCLK clock Bit[0]: Enable VFIFO SCLK clock System Control Bit[7]: Software reset Bit[6]: Software power down Bit[6:4]: PLL charge pump control Bit[3:0]: MIPI bit mode 0x8: 8-bit mode 0xA: 10-bit mode Bit[7:4]: System clock divider Slow down all clocks Bit[3:0]: Scale divider for MIPI MIPI PCLK/SERCLK can be  slowed down Bit[7:0]: PLL multiplier (4~252) Can be any integer for 4~127 and  only even integer for 128~252 Bit[4]: PLL root divider 0: Bypass 1: Divided by 2 Bit[3:0]: PLL pre-divider 1, 2, 3, 4, 6, 8"
+    },
+    {
+        "id": 238,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  Bit[4]: PLL root divider"
+    },
+    {
+        "id": 239,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  0: Bypass"
+    },
+    {
+        "id": 240,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  1: Divided by 2"
+    },
+    {
+        "id": 241,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  Bit[3:0]: PLL pre-divider"
+    },
+    {
+        "id": 242,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  1, 2, 3, 4, 6, 8"
+    },
+    {
+        "id": 243,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  0x3039 SC PLL CONTRL 5 0x00 RW Bit[7]: PLL bypass"
+    },
+    {
+        "id": 244,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.2 System Control -  6-7"
+    },
+    {
+        "id": 245,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.3 Microcontroller Unit (Mcu) -  The MCU firmware can be downloaded by writing to registers starting from 0x8000. A total of 4 KB of program memory can be used for program storage. Before downloading the firmware, the user must enable the MCU clock by setting register 0x3000[5] to 1'b1. After downloading the firmware, set register 0x3000[5] to 1'b0 to enable the MCU. The MCU interrupts are triggered by several internal signals for firmware development."
+    },
+    {
+        "id": 246,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.3 Microcontroller Unit (Mcu) -  table 6-3 MCU control registers (sheet 2 of 2)"
+    },
+    {
+        "id": 247,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  Frame control (FC) is used to mask some specified frame by setting the appropriate registers."
+    },
+    {
+        "id": 248,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  table 6-4 FC control registers 6-9 OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 249,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  6.5 format description Format control converts the internal data format into the desired output format including YUV, RGB, or RAW. table 6-5 FORMAT control registers (sheet 1 of 5) default address register name value R/W description 0x4300 FORMAT CONTROL  00 0xF8 RW Format Control 00 Bit[7:4]: Output format of formatter module 0x0: RAW Bit[3:0]: Output sequence 0x0: BGBG... / GRGR... 0x1: GBGB... / RGRG... 0x2: GRGR... / BGBG... 0x3: RGRG... / GBGB... 0x4~0xF: Not allowed 0x1: Y8 Bit[3:0]: Does not matter 0x2: YUV444/RGB888 (not available for  full resolution) Bit[3:0]: Output sequence 0x0: YUVYUV..., or  GBRGBR... 0x1: YVUYVU..., or  GRBGRB... 0x2: UYVUYV..., or  BGRBGR... 0x3: VYUVYU..., or  RGBRGB... 0x4: UVYUVY..., or  BRGBRG... 0x5: VUYVUY..., or  RBGRBG... 0x6~0xE: Not allowed 0xF: UYVUYV..., or  BGRBGR... 0x3: YUV422 Bit[3:0]: Output sequence 0x0: YUYV... 0x1: YVYU... 0x2: UYVY... 0x3: VYUY... 0x4~0xE: Not allowed 0xF: UYVY... 0x4: YUV420 Bit[3:0]: Output sequence 0x0: YYYY... / YUYV... 0x1: YYYY... / YVYU... 0x2: YYYY... / UYVY... 0x3: YYYY... / VYUY... 0x4: YUYV... / YYYY..."
+    },
+    {
+        "id": 250,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  table 6-5 FORMAT control registers (sheet 2 of 5)"
+    },
+    {
+        "id": 251,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  address register name"
+    },
+    {
+        "id": 252,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  default"
+    },
+    {
+        "id": 253,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  value R/W description"
+    },
+    {
+        "id": 254,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  0x5: YVYU... / YYYY..."
+    },
+    {
+        "id": 255,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  0x6: UYVY... / YYYY... 0x7: VYUY... / YYYY..."
+    },
+    {
+        "id": 256,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  0x8~0xE: Not allowed 0xF: YYYY... / UYVY..."
+    },
+    {
+        "id": 257,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  0x5: YUV420 (for MIPI only) Bit[3:0]: Output sequence 0x0~0xD: Not allowed 0xE: VYYVYY... / UYYUYY..."
+    },
+    {
+        "id": 258,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  0xF: UYYUYY... / VYYVYY..."
+    },
+    {
+        "id": 259,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  0x6: RGB565 Bit[3:0]: Output sequence 0x0: {b[4:0],g[5:3]}, {g[2:0],r[4:0]} 0x1: {r[4:0],g[5:3]}, {g[2:0],b[4:0]} 0x2: {g[4:0],r[5:3]}, {r[2:0],b[4:0]} 0x3: {b[4:0],r[5:3]}, {r[2:0],g[4:0]} 0x4: {g[4:0],b[5:3]}, {b[2:0],r[4:0]} 0x5: {r[4:0],b[5:3]}, {b[2:0],g[4:0]} 0x6~0xE: Not allowed 0xF: {g[2:0],b[4:0]}, {r[4:0],g[5:3]} 0x7: RGB555 format 1 Bit[3:0]: Output sequence 0x0: {b[4:0],g[4:2]}, {g[1:0],1'b0,r[4:0]} 0x1: {r[4:0],g[4:2]}, {g[1:0],1'b0,b[4:0]} 0x2: {g[4:0],r[4:2]}, {r[1:0],1'b0,b[4:0]} 0x3: {b[4:0],r[4:2]}, {r[1:0],1'b0,g[4:0]} 0x4: {r[4:0],b[4:2]}, {b[1:0],1'b0,g[4:0]} 0x5: {g[4:0],b[4:2]}, {b[1:0],1'b0,r[4:0]} 0x6~0xE: Not allowed 0xF: {g[1:0],1'b0,b[4:0]}, {r[4:0],g[4:2]} 0x8: RGB555 format 2 Bit[3:0]: Output sequence 0x0: {1'b0,b[4:0],g[4:3]}, {g[2:0],r[4:0]} OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology table 6-5 FORMAT control registers (sheet 3 of 5)"
+    },
+    {
+        "id": 260,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  default address  register name  value  R/W  description"
+    },
+    {
+        "id": 261,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  0x1: {1'b0,r[4:0],g[4:2]}, {g[2:0],b[4:0]} 0x2: {1'b0,g[4:0],r[4:2]}, {r[2:0],b[4:0]} 0x3: {1'b0,b[4:0],r[4:2]}, {r[2:0],g[4:0]} 0x4: {1'b0,r[4:0],b[4:2]}, {b[2:0],g[4:0]} 0x5: {1'b0,g[4:0],b[4:2]}, {b[2:0],r[4:0]} 0x6: {b[4:0],1'b0,g[4:3]}, {g[2:0],r[4:0]} 0x7: {r[4:0],1'b0,g[4:2]}, {g[2:0],b[4:0]} 0x8: {g[4:0],1'b0,r[4:2]}, {r[2:0],b[4:0]} 0x9: {b[4:0],1'b0,r[4:2]}, {r[2:0],g[4:0]} 0xA: {r[4:0],1'b0,b[4:2]}, {b[2:0],g[4:0]} 0xB: {g[4:0],1'b0,b[4:2]}, {b[2:0],r[4:0]} 0xC~0xF: Not allowed 0x9: RGB444 format 1 Bit[3:0]: Output sequence 0x0: {1'b0,b[3:0],2'h0,g[3]}, {g[2:0],1'b0,r[3:0]} 0x1: {1'b0,r[3:0],2'h0,g[3]}, {g[2:0],1'b0,b[3:0]} 0x2: {1'b0,g[3:0],2'h0,r[3]}, {r[2:0],1'b0,b[3:0]} 0x3: {1'b0,b[3:0],2'h0,r[3]}, {r[2:0],1'b0,g[3:0]} 0x4: {1'b0,r[3:0],2'h0,b[3]}, {b[2:0],1'b0,g[3:0]} 0x5: {1'b0,g[3:0],2'h0,b[3]}, {b[2:0],1'h0,r[3:0]} 0x6: {b[3:0],1'b0,g[3:1]}, {g[0],2'h0,r[3:0],1'b0} 0x7: {r[3:0],1'b0,g[3:1]}, {g[0],2'h0,b[3:0],1'b0} 0x8: {g[3:0],1'b0,r[3:1]}, {r[0],2'h0,b[3:0],1'b0} 0x9: {b[3:0],1'b0,r[3:1]}, {r[0],2'h0,g[3:0],1'b0} 0xA: {r[3:0],1'b0,b[3:1]}, {b[0],2'h0,g[3:0],1'b0} 0xB: {g[3:0],1'b0,b[3:1]}, {b[0],2'h0,r[3:0],1'b0} 0xC~0xE: Not allowed"
+    },
+    {
+        "id": 262,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.4 Frame Control (Fc) -  table 6-5 FORMAT control registers (sheet 4 of 5)"
+    },
+    {
+        "id": 263,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.6 Digital Video Port (Dvp) 6.6.1 Overview -  The Digital Video Port (DVP) provides 10-bit parallel data output in all formats supported and extended features including compression mode, HSYNC mode, CCIR656 mode, and test pattern output. The DVP is also used to receive the video data from an external camera, which will be sent out through the OV5640 MIPI interface."
+    },
+    {
+        "id": 264,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.6 Digital Video Port (Dvp) 6.6.1 Overview -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology 6.6.2 DVP timing figure 6-7 DVP timing diagram"
+    },
+    {
+        "id": 265,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.6 Digital Video Port (Dvp) 6.6.1 Overview -  note The timing values shown in **table 6-7** may vary depending upon register settings."
+    },
+    {
+        "id": 266,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.6 Digital Video Port (Dvp) 6.6.1 Overview -  table 6-7 DVP timing specifications (sheet 2 of 2) 6-19"
+    },
+    {
+        "id": 267,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.7 Mobile Industry Processor Interface (Mipi) -  MIPI provides a single uni-directional clock lane and two bi-directional data lane solution for communication links between components inside a mobile device. The two data lanes have full support for HS (uni-direction) and LP (bi-direction) data transfer mode. Contact your local OmniVision FAE for more details."
+    },
+    {
+        "id": 268,
+        "text": "ova5640 - 3.3 Vcm Driver - 6.7 Mobile Industry Processor Interface (Mipi) -  table 6-8 MIPI transmitter registers (sheet 2 of 3) table 6-8 MIPI transmitter registers (sheet 3 of 3)"
+    },
+    {
+        "id": 269,
+        "text": "ova5640 - 3.3 Vcm Driver - 7 Register Tables -  The following tables provide descriptions of the device control registers contained in the OV5640. For all registers enable/disable bits, ENABLE = 1 and DISABLE = 0."
+    },
+    {
+        "id": 270,
+        "text": "ova5640 - 3.3 Vcm Driver - 7 Register Tables -  7.1 system and IO pad control [0x3000 ~ 0x3052]"
+    },
+    {
+        "id": 271,
+        "text": "ova5640 - 3.3 Vcm Driver - 7 Register Tables -  7-1"
+    },
+    {
+        "id": 272,
+        "text": "ova5640 - 3.3 Vcm Driver - 7 Register Tables -  7-3"
+    },
+    {
+        "id": 273,
+        "text": "ova5640 - 3.3 Vcm Driver - 7 Register Tables -  7-5"
+    },
+    {
+        "id": 274,
+        "text": "ova5640 - 3.3 Vcm Driver - 7 Register Tables -  table 7-1 system and IO pad control registers (sheet 7 of 7)"
+    },
+    {
+        "id": 275,
+        "text": "ova5640 - 3.3 Vcm Driver - 7.2 Sccb Control [0X3100 ~ 0X3108] -  table 7-2 SCCB control registers (sheet 1 of 2) 7-7 OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 276,
+        "text": "ova5640 - 3.3 Vcm Driver - 7.3 Srb Control [0X3200 ~ 0X3211] -  table 7-3 SRB control registers (sheet 1 of 2)"
+    },
+    {
+        "id": 277,
+        "text": "ova5640 - 3.3 Vcm Driver - 7.4 Awb Gain Control [0X3400 ~ 0X3406] -  table 7-4 AWB gain control registers"
+    },
+    {
+        "id": 278,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] -  table 7-5 AEC/AGC control registers"
+    },
+    {
+        "id": 279,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.6 Vcm Control [0X3600 ~ 0X3606] -  table 7-6 VCM control registers (sheet 1 of 2)"
+    },
+    {
+        "id": 280,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.6 Vcm Control [0X3600 ~ 0X3606] -  table 7-6 VCM control registers (sheet 2 of 2)"
+    },
+    {
+        "id": 281,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  table 7-7 timing control registers (sheet 1 of 3)"
+    },
+    {
+        "id": 282,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  table 7-7 timing control registers (sheet 3 of 3) 7.8 AEC/AGC power down domain control [0x3A00 ~ 0x3A25]"
+    },
+    {
+        "id": 283,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  table 7-8 AEC/AGC power down domain control registers (sheet 1 of 4)"
+    },
+    {
+        "id": 284,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  table 7-8 AEC/AGC power down domain control registers (sheet 2 of 4)"
+    },
+    {
+        "id": 285,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  table 7-8 AEC/AGC power down domain control registers (sheet 3 of 4) table 7-8 AEC/AGC power down domain control registers (sheet 4 of 4)"
+    },
+    {
+        "id": 286,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  address register name"
+    },
+    {
+        "id": 287,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  default"
+    },
+    {
+        "id": 288,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  value R/W description"
+    },
+    {
+        "id": 289,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  0x3A1E AEC CTRL1E 0x68 RW Stable Range Low Limit (Go Out)"
+    },
+    {
+        "id": 290,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  Bit[7:0]: BPT2"
+    },
+    {
+        "id": 291,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  0x3A1F AEC CTRL1F 0x40 RW Step Manual Mode, Fast Zone Low Limit"
+    },
+    {
+        "id": 292,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  Bit[7:0]: VPT low"
+    },
+    {
+        "id": 293,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  0x3A20 AEC CTRL20 0x20 RW"
+    },
+    {
+        "id": 294,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  Bit[7:3]: Debug mode"
+    },
+    {
+        "id": 295,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  Bit[2]: Strobe option Bit[1:0]: Debug mode"
+    },
+    {
+        "id": 296,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  0x3A21 AEC CTRL21 0x78 RW"
+    },
+    {
+        "id": 297,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  Bit[7]: Debug mode"
+    },
+    {
+        "id": 298,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  Bit[6:4]: Insert frame number Bit[3:0]: Debug mode"
+    },
+    {
+        "id": 299,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  0x3A22~"
+    },
+    {
+        "id": 300,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  0x3A24 DEBUG MODE - – Debug Mode"
+    },
+    {
+        "id": 301,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  0x3A25 AEC CTRL25 0x00 RW"
+    },
+    {
+        "id": 302,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.7 Timing Control [0X3800 ~ 0X3821] -  Bit[7:5]: Debug mode Bit[4:2]: Freeze counter Bit[1:0]: Debug mode"
+    },
+    {
+        "id": 303,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  table 7-9 strobe registers (sheet 1 of 2)"
+    },
+    {
+        "id": 304,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  address register name"
+    },
+    {
+        "id": 305,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  default"
+    },
+    {
+        "id": 306,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  value R/W description"
+    },
+    {
+        "id": 307,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  0x3B07 FREX MODE 0x08 RW"
+    },
+    {
+        "id": 308,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  0x3B0A FREX RST LENGTH 0x04 RW"
+    },
+    {
+        "id": 309,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  0x3B06 FREX CTRL 07 0x04 RW Bit[7:4]: FREX frame delay"
+    },
+    {
+        "id": 310,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  Bit[3:0]: Strobe width[3:0]"
+    },
+    {
+        "id": 311,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  FREX Mode Selection"
+    },
+    {
+        "id": 312,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  Bit[1:0]: FREX mode"
+    },
+    {
+        "id": 313,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  00: FREX strobe mode0 01: FREX strobe mode1"
+    },
+    {
+        "id": 314,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  1x: Rolling strobe"
+    },
+    {
+        "id": 315,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  0x3B08 FREX REQUEST 0x00 RW FREX Request"
+    },
+    {
+        "id": 316,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  0x3B09 FREX HREF DELAY 0x02 RW FREX HREF Delay"
+    },
+    {
+        "id": 317,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  Bit[7:3]: Debug mode Bit[2:0]: FREX precharge length"
+    },
+    {
+        "id": 318,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  000: 1/16 Tline 001: 1/8 Tline"
+    },
+    {
+        "id": 319,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  010: 1/4 Tline 011: 1/2 Tline 100: 1 Tline"
+    },
+    {
+        "id": 320,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  101: 2 Tline 110: 4 Tline"
+    },
+    {
+        "id": 321,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  111: 8 Tline"
+    },
+    {
+        "id": 322,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  0x3B0B STROBE WIDTH 0x00 RW Bit[7:0]: Strobe width[19:12]"
+    },
+    {
+        "id": 323,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  0x3B0C STROBE WIDTH 0x3D RW Bit[7:0]: Strobe width[11:4]"
+    },
+    {
+        "id": 324,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  table 7-9 strobe registers (sheet 2 of 2) 7.10 50/60Hz detector control [0x3C00 ~ 0x3C1E] table 7-10 5060Hz detector registers (sheet 1 of 3)"
+    },
+    {
+        "id": 325,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  table 7-10 5060Hz detector registers (sheet 2 of 3)"
+    },
+    {
+        "id": 326,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.9 Strobe Control [0X3B00 ~ 0X3B0C] -  table 7-10 5060Hz detector registers (sheet 3 of 3)"
+    },
+    {
+        "id": 327,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.5 Aec/Agc Control [0X3500 ~ 0X350D] - 7.11 Otp Control [0X3D00 ~ 0X3D21] -  table 7-11 OTP control functions (sheet 1 of 2) OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 328,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 329,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] -  table 7-12 MC registers (sheet 3 of 3)"
+    },
+    {
+        "id": 330,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.13 Blc Control [0X4000 ~ 0X4033] -  table 7-13 BLC registers (sheet 1 of 3) 7-23"
+    },
+    {
+        "id": 331,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.13 Blc Control [0X4000 ~ 0X4033] -  table 7-13 BLC registers (sheet 3 of 3)"
+    },
+    {
+        "id": 332,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.14 Frame Control [0X4201 ~ 0X4202] -  table 7-14 frame control registers OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology 7.15 format control [0x4300 ~ 0x430D]"
+    },
+    {
+        "id": 333,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.14 Frame Control [0X4201 ~ 0X4202] -  table 7-15 format control registers (sheet 2 of 5)"
+    },
+    {
+        "id": 334,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.14 Frame Control [0X4201 ~ 0X4202] -  address register name"
+    },
+    {
+        "id": 335,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.14 Frame Control [0X4201 ~ 0X4202] -  default"
+    },
+    {
+        "id": 336,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.14 Frame Control [0X4201 ~ 0X4202] -  value R/W description"
+    },
+    {
+        "id": 337,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.14 Frame Control [0X4201 ~ 0X4202] -  0x6: UYVY... / YYYY..."
+    },
+    {
+        "id": 338,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.14 Frame Control [0X4201 ~ 0X4202] -  0x7: VYUY... / YYYY... 0x8~0xE: Not allowed 0xF: YYYY... / UYVY..."
+    },
+    {
+        "id": 339,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.14 Frame Control [0X4201 ~ 0X4202] -  0x5: YUV420 (for MIPI only) Bit[3:0]: Output sequence 0x0~0xD: Not allowed 0xE: VYYVYY... / UYYUYY..."
+    },
+    {
+        "id": 340,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.14 Frame Control [0X4201 ~ 0X4202] -  0xF: UYYUYY... / VYYVYY..."
+    },
+    {
+        "id": 341,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.14 Frame Control [0X4201 ~ 0X4202] -  0x6: RGB565 Bit[3:0]: Output sequence 0x0: {b[4:0],g[5:3]}, {g[2:0],r[4:0]} 0x1: {r[4:0],g[5:3]}, {g[2:0],b[4:0]} 0x2: {g[4:0],r[5:3]}, {r[2:0],b[4:0]} 0x3: {b[4:0],r[5:3]}, {r[2:0],g[4:0]} 0x4: {g[4:0],b[5:3]}, {b[2:0],r[4:0]} 0x5: {r[4:0],b[5:3]}, {b[2:0],g[4:0]} 0x6~0xE: Not allowed 0xF: {g[2:0],b[4:0]}, {r[4:0],g[5:3]} 0x7: RGB555 format 1 Bit[3:0]: Output sequence 0x0: {b[4:0],g[4:2]}, {g[1:0],1'b0,r[4:0]} 0x1: {r[4:0],g[4:2]}, {g[1:0],1'b0,b[4:0]} 0x2: {g[4:0],r[4:2]}, {r[1:0],1'b0,b[4:0]} 0x3: {b[4:0],r[4:2]}, {r[1:0],1'b0,g[4:0]} 0x4: {r[4:0],b[4:2]}, {b[1:0],1'b0,g[4:0]} 0x5: {g[4:0],b[4:2]}, {b[1:0],1'b0,r[4:0]} 0x6~0xE: Not allowed 0xF: {g[1:0],1'b0,b[4:0]}, {r[4:0],g[4:2]} 0x8: RGB555 format 2 Bit[3:0]: Output sequence 0x0: {1'b0,b[4:0],g[4:3]}, {g[2:0],r[4:0]} OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology table 7-15 format control registers (sheet 3 of 5)"
+    },
+    {
+        "id": 342,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.14 Frame Control [0X4201 ~ 0X4202] -  default address  register name  value  R/W  description"
+    },
+    {
+        "id": 343,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.14 Frame Control [0X4201 ~ 0X4202] -  0x1: {1'b0,r[4:0],g[4:2]}, {g[2:0],b[4:0]} 0x2: {1'b0,g[4:0],r[4:2]}, {r[2:0],b[4:0]} 0x3: {1'b0,b[4:0],r[4:2]}, {r[2:0],g[4:0]} 0x4: {1'b0,r[4:0],b[4:2]}, {b[2:0],g[4:0]} 0x5: {1'b0,g[4:0],b[4:2]}, {b[2:0],r[4:0]} 0x6: {b[4:0],1'b0,g[4:3]}, {g[2:0],r[4:0]} 0x7: {r[4:0],1'b0,g[4:2]}, {g[2:0],b[4:0]} 0x8: {g[4:0],1'b0,r[4:2]}, {r[2:0],b[4:0]} 0x9: {b[4:0],1'b0,r[4:2]}, {r[2:0],g[4:0]} 0xA: {r[4:0],1'b0,b[4:2]}, {b[2:0],g[4:0]} 0xB: {g[4:0],1'b0,b[4:2]}, {b[2:0],r[4:0]} 0xC~0xF: Not allowed 0x9: RGB444 format 1 Bit[3:0]: Output sequence 0x0: {1'b0,b[3:0],2'h0,g[3]}, {g[2:0],1'b0,r[3:0]} 0x1: {1'b0,r[3:0],2'h0,g[3]}, {g[2:0],1'b0,b[3:0]} 0x2: {1'b0,g[3:0],2'h0,r[3]}, {r[2:0],1'b0,b[3:0]} 0x3: {1'b0,b[3:0],2'h0,r[3]}, {r[2:0],1'b0,g[3:0]} 0x4: {1'b0,r[3:0],2'h0,b[3]}, {b[2:0],1'b0,g[3:0]} 0x5: {1'b0,g[3:0],2'h0,b[3]}, {b[2:0],1'h0,r[3:0]} 0x6: {b[3:0],1'b0,g[3:1]}, {g[0],2'h0,r[3:0],1'b0} 0x7: {r[3:0],1'b0,g[3:1]}, {g[0],2'h0,b[3:0],1'b0} 0x8: {g[3:0],1'b0,r[3:1]}, {r[0],2'h0,b[3:0],1'b0} 0x9: {b[3:0],1'b0,r[3:1]}, {r[0],2'h0,g[3:0],1'b0} 0xA: {r[3:0],1'b0,b[3:1]}, {b[0],2'h0,g[3:0],1'b0} 0xB: {g[3:0],1'b0,b[3:1]}, {b[0],2'h0,r[3:0],1'b0} 0xC~0xE: Not allowed"
+    },
+    {
+        "id": 344,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.14 Frame Control [0X4201 ~ 0X4202] -  table 7-15 format control registers (sheet 4 of 5)"
+    },
+    {
+        "id": 345,
+        "text": "ova5640 - 7.12 Mc Control [0X3F00 ~ 0X3F0D] - 7.14 Frame Control [0X4201 ~ 0X4202] -  table 7-15 format control registers (sheet 5 of 5)"
+    },
+    {
+        "id": 346,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] -  table 7-16 JPEG control registers (sheet 1 of 3)"
+    },
+    {
+        "id": 347,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] -  table 7-16 JPEG control registers (sheet 2 of 3)"
+    },
+    {
+        "id": 348,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] -  address register name"
+    },
+    {
+        "id": 349,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] -  default"
+    },
+    {
+        "id": 350,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] -  value R/W description"
+    },
+    {
+        "id": 351,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] -  0x4420~"
+    },
+    {
+        "id": 352,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] -  0x442F JPEG COMMENT 0x00 RW JPEG Comment Data Embedded in JPEG Data"
+    },
+    {
+        "id": 353,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] -  0x4430 JPEG COMMENT 0x00 RW Comment Length"
+    },
+    {
+        "id": 354,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] -  Two bytes align"
+    },
+    {
+        "id": 355,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] -  0x4431 JPEG COMMENT 0xFE RW Comment Data Marker"
+    },
+    {
+        "id": 356,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] -  table 7-16 JPEG control registers (sheet 3 of 3)"
+    },
+    {
+        "id": 357,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] - 7.17 Vfifo Control [0X4600 ~ 0X460D] -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 358,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] - 7.17 Vfifo Control [0X4600 ~ 0X460D] -  table 7-17 VFIFO registers (sheet 2 of 2)"
+    },
+    {
+        "id": 359,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] - 7.18 Dvp Control [0X4709 ~ 0X4745] -  table 7-18 DVP control registers (sheet 1 of 4)"
+    },
+    {
+        "id": 360,
+        "text": "ova5640 - 7.16 Jpeg Control [0X4400 ~ 0X4431] - 7.18 Dvp Control [0X4709 ~ 0X4745] -  7-35"
+    },
+    {
+        "id": 361,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  table 7-18 DVP control registers (sheet 4 of 4)"
+    },
+    {
+        "id": 362,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  table 7-19 MIPI transmitter registers (sheet 2 of 3)"
+    },
+    {
+        "id": 363,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  address register name"
+    },
+    {
+        "id": 364,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  default"
+    },
+    {
+        "id": 365,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  value R/W description"
+    },
+    {
+        "id": 366,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x4806~"
+    },
+    {
+        "id": 367,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x4809 DEBUG MODE - – Debug Mode"
+    },
+    {
+        "id": 368,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x480A MIPI DATA"
+    },
+    {
+        "id": 369,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  ORDER 0x00 RW"
+    },
+    {
+        "id": 370,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  Bit[7:3]: Debug mode"
+    },
+    {
+        "id": 371,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  Bit[2]: Bit order reverse"
+    },
+    {
+        "id": 372,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  Bit[1:0]: Bit position adjust"
+    },
+    {
+        "id": 373,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  01: {data[7:0],data[9:8]}"
+    },
+    {
+        "id": 374,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  10: {data[1:0],data[9:2]}"
+    },
+    {
+        "id": 375,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x480B~"
+    },
+    {
+        "id": 376,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x4817 DEBUG MODE - – Debug Mode 0x4818 MIN HS ZERO H 0x00 RW High Byte of Minimum Value of hs_zero"
+    },
+    {
+        "id": 377,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  Unit ns"
+    },
+    {
+        "id": 378,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x4819 MIN HS ZERO L 0x96 RW Low Byte of Minimum Value of hs_zero"
+    },
+    {
+        "id": 379,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  hs_zero_real = hs_zero_min_o + Tui*ui_hs_zero_min_o"
+    },
+    {
+        "id": 380,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x481A MIN MIPI HS"
+    },
+    {
+        "id": 381,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  TRAIL H 0x00 RW High Byte of Minimum Value of hs_trail"
+    },
+    {
+        "id": 382,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  Unit ns"
+    },
+    {
+        "id": 383,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x481B MIN MIPI HS"
+    },
+    {
+        "id": 384,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  TRAIL L 0x3C RW Low Byte of Minimum Value of hs_trail"
+    },
+    {
+        "id": 385,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  hs_trail_real = hs_trail_min_o + Tui*ui_hs_trail_min_o"
+    },
+    {
+        "id": 386,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x481C MIN MIPI CLK"
+    },
+    {
+        "id": 387,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  ZERO H 0x01 RW High Byte of Minimum Value of clk_zero"
+    },
+    {
+        "id": 388,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x481D MIN MIPI CLK"
+    },
+    {
+        "id": 389,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  ZERO L 0x86 RW Low Byte of Minimum Value of clk_zero"
+    },
+    {
+        "id": 390,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  clk_zero_real = clk_zero_min_o + Tui*ui_clk_zero_min_o"
+    },
+    {
+        "id": 391,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x481E MIN MIPI CLK"
+    },
+    {
+        "id": 392,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  PREPARE H 0x00 RW High Byte of Minimum Value of clk_prepare"
+    },
+    {
+        "id": 393,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  Unit ns"
+    },
+    {
+        "id": 394,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x481F MIN MIPI CLK"
+    },
+    {
+        "id": 395,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  PREPARE L 0x3C RW"
+    },
+    {
+        "id": 396,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  Low Byte of Minimum Value of clk_prepare"
+    },
+    {
+        "id": 397,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  clk_prepare_real = clk_prepare_min_o +"
+    },
+    {
+        "id": 398,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  Tui*ui_clk_prepare_min_o"
+    },
+    {
+        "id": 399,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x4820 MIN CLK POST H 0x00 RW High Byte of Minimum Value of clk_post"
+    },
+    {
+        "id": 400,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  Unit ns"
+    },
+    {
+        "id": 401,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x4821 MIN CLK POST L 0x56 RW Low Byte of Minimum Value of clk_post"
+    },
+    {
+        "id": 402,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  clk_post_real = clk_post_min_o + Tui*ui_clk_post_min_o"
+    },
+    {
+        "id": 403,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x4822 MIN CLK TRAIL H 0x00 RW High Byte of Minimum Value of clk_trail"
+    },
+    {
+        "id": 404,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  Unit ns"
+    },
+    {
+        "id": 405,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x4823 MIN CLK TRAIL L 0x3C RW Low Byte of Minimum Value of clk_trail"
+    },
+    {
+        "id": 406,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  clk_trail_real = clk_trail_min_o + Tui*ui_clk_trail_min_o"
+    },
+    {
+        "id": 407,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x4824 MIN LPX PCLK H 0x00 RW High Byte of Minimum Value of lpx_p"
+    },
+    {
+        "id": 408,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  Unit ns"
+    },
+    {
+        "id": 409,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  0x4825 MIN LPX PCLK L 0x32 RW Low Byte of Minimum Value of lpx_p"
+    },
+    {
+        "id": 410,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  lpx_p_real = lpx_p_min_o + Tui*ui_lpx_p_min_o"
+    },
+    {
+        "id": 411,
+        "text": "ova5640 - Ov5640 Color Cmos Qsxga (5 Megapixel) Image Sensor With Omnibsi™ Technology 7.19 Mipi Control [0X4800 ~ 0X4837] -  table 7-19 MIPI transmitter registers (sheet 3 of 3)"
+    },
+    {
+        "id": 412,
+        "text": "ova5640 - 7.20 Isp Frame Control [0X4901 ~ 0X4902] - 7.21 Isp Top Control [0X5000 ~ 0X5063] -  table 7-21 ISP top control registers (sheet 2 of 5)"
+    },
+    {
+        "id": 413,
+        "text": "ova5640 - 7.20 Isp Frame Control [0X4901 ~ 0X4902] - 7.21 Isp Top Control [0X5000 ~ 0X5063] -  7-45"
+    },
+    {
+        "id": 414,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] -  7-53"
+    },
+    {
+        "id": 415,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] -  table 7-27 scale registers (sheet 2 of 2)"
+    },
+    {
+        "id": 416,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - 7.28 Avg Control [0X5680 ~ 0X56A2] -  table 7-28 AVG registers (sheet 2 of 3) table 7-28 AVG registers (sheet 3 of 3)"
+    },
+    {
+        "id": 417,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - 7.29 Lenc Control [0X5800 ~ 0X5849] -  table 7-29 LENC control registers (sheet 2 of 6)"
+    },
+    {
+        "id": 418,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - 7.29 Lenc Control [0X5800 ~ 0X5849] -  table 7-29 LENC control registers (sheet 3 of 6)"
+    },
+    {
+        "id": 419,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - 7.29 Lenc Control [0X5800 ~ 0X5849] -  table 7-29 LENC control registers (sheet 6 of 6)"
+    },
+    {
+        "id": 420,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - 7.30 Afc Control [0X6000 ~ 0X603F] -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 421,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - 7.30 Afc Control [0X6000 ~ 0X603F] -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 422,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - 8 Operating Specifications 8.1 Absolute Maximum Ratings -  table 8-1 absolute maximum ratings"
+    },
+    {
+        "id": 423,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - 8 Operating Specifications 8.1 Absolute Maximum Ratings -  a. exceeding the absolute maximum ratings shown above invalidates all AC and DC electrical specifications and may result in permanent damage to the device. Exposure to absolute maximum rated conditions for extended periods may affect device reliability."
+    },
+    {
+        "id": 424,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - 8 Operating Specifications 8.1 Absolute Maximum Ratings -  b. for negative voltage with respect to ground, VDD-A (-4.5V), VDD-C (-3V), VDD-IO (-4.5V)"
+    },
+    {
+        "id": 425,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - Table 8-2 Functional Temperature -  a. sensor functions but image quality may be noticeably different at temperatures outside of stable image range b. image quality remains stable throughout this temperature range 8-1 OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 426,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - 8.3 Dc Characteristics -  8-3"
+    },
+    {
+        "id": 427,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - Table 8-5 Timing Characteristics -  b. if the PLL is bypassed, the delay from input clock to output clock is approximately 4~5 ns"
+    },
+    {
+        "id": 428,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - Table 8-5 Timing Characteristics -  5 (10c)"
+    },
+    {
+        "id": 429,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - Table 8-5 Timing Characteristics -  a. for input clock range 6~27 MHz, the OV5640 can tolerate input clock jitter up to 1ns, for input clock range to 54MHz, the OV5640 can tolerate input clock jitter up to 500 ps c. if using the internal PLL d. typical PCLK is 48 MHz when sensor output is smaller size (VGA YUV or below) or full size compression e. 96 MHz is for sensor RAW data output at 15 fps or YUV output at 7.5 fps. For higher speeds such as 5 megapixel YUV @ 15 fps, OmniVision recommends using the MIPI two-lane interface."
+    },
+    {
+        "id": 430,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - Table 8-5 Timing Characteristics -  figure 8-1 SCCB interface timing table 8-6 SCCB interface timing specificationsa"
+    },
+    {
+        "id": 431,
+        "text": "ova5640 - 7.27 Scale Control [0X5600 ~ 0X5606] - Table 8-5 Timing Characteristics -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 432,
+        "text": "ova5640 - 9 Mechanical Specifications 9.1 Physical Specifications -  figure 9-1 package specifications"
+    },
+    {
+        "id": 433,
+        "text": "ova5640 - 9 Mechanical Specifications 9.1 Physical Specifications -  table 9-1 package dimensions"
+    },
+    {
+        "id": 434,
+        "text": "ova5640 - 9 Mechanical Specifications 9.1 Physical Specifications -  OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 435,
+        "text": "ova5640 - 9 Mechanical Specifications 9.1 Physical Specifications - 9.2 Ir Reflow Specifications -  figure 9-2 IR reflow ramp rate requirements note The OV5640 uses a lead-free package."
+    },
+    {
+        "id": 436,
+        "text": "ova5640 - 9 Mechanical Specifications 9.1 Physical Specifications - 9.2 Ir Reflow Specifications -  table 9-2 reflow conditions"
+    },
+    {
+        "id": 437,
+        "text": "ova5640 - 10 Optical Specifications 10.1 Sensor Array Center -  figure 10-1 sensor array center"
+    },
+    {
+        "id": 438,
+        "text": "ova5640 - 10 Optical Specifications 10.1 Sensor Array Center - Top View -  note 1 note 2 this drawing is not to scale and is for reference only."
+    },
+    {
+        "id": 439,
+        "text": "ova5640 - 10 Optical Specifications 10.1 Sensor Array Center - Top View -  as most optical assemblies invert and mirror the image, the chip is typically mounted with pins A2 to A11 oriented down on the PCB."
+    },
+    {
+        "id": 440,
+        "text": "ova5640 - 10 Optical Specifications 10.1 Sensor Array Center - Top View -  5640_CSP_DS_10_1 10-1 OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 441,
+        "text": "ova5640 - 10 Optical Specifications 10.1 Sensor Array Center - Top View -  10.2 lens chief ray angle (CRA) figure 10-2 chief ray angle (CRA)"
+    },
+    {
+        "id": 442,
+        "text": "ova5640 - 10 Optical Specifications 10.1 Sensor Array Center - Top View -  table 10-1 CRA versus image height plot (sheet 1 of 2)"
+    },
+    {
+        "id": 443,
+        "text": "ova5640 - 10 Optical Specifications 10.1 Sensor Array Center - Top View -  table 10-1 CRA versus image height plot (sheet 2 of 2) 10-3 OV5640 color CMOS QSXGA (5 megapixel) image sensor with OmniBSI™ technology"
+    },
+    {
+        "id": 444,
+        "text": "ova5640 - Revision History -  version 1.0 02.02.2010 - initial release"
+    },
+    {
+        "id": 445,
+        "text": "ova5640 - Revision History - Version 2.0 11.15.2010 -  - updated datasheet to product specification version 2.01 01.20.2011 - in chapter 1, updated table 1-1 signal descriptions rev-1 - in the key specifications section, updated power requirements from TBD to active: 104 mA; standby: 20 µA - in the key specifications section, updated the S/N ratio from TBD to S/N ratio: 36 dB (maximum) - in the key specifications section, updated the dynamic range from TBD to dynamic range: 68 dB at 8x gain - in the key specifications section, updated sensitivity from TBD to sensitivity: 600 mV/Lux-sec - in the key specifications section, removed well capacity - in the key specifications section, updated dark current from 2 mV/s @ 60°C junction temperature - in chapter 1, updated table 1-1 signal descriptions - in chapter 2, updated section 2.7 power up sequence - in chapter 2, updated section 2.8 reset - in chapter 2, updated section 2.9 standby and sleep - in chapter 4, updated table 4-11 OTP control functions by adding footnotes to register 0x3D20~0x3D04 - in chapter 5, updated table 5-2 LENC control registers by adding registers 0x583E, 0x583F, 0x5840 and 0x5841 - in chapter 5, updated table 5-7 CMX control registers by adding registers 0x5380 and 0x5381 - in chapter 6, updated section 6.3 microcontroller unit (MCU) overview - in chapter 7, updated table 7-1 system and IO pad control registers (registers 0x3030 to 0x3032) - in chapter 7, removed register table 7-12 BIST registers - in chapter 7, updated table 7-25 CMX control registers (registers 0x5380 and 0x5381) - in chapter 8, updated table 8-3 DC characteristics (-20°C < TA < 70°C) - in chapter 8, updated table 8-6 SCCB interface timing specification"
+    },
+    {
+        "id": 446,
+        "text": "ova5640 - Revision History - Version 2.02 04.11.2011 -  - in chapter 8, updated table 8-2 operating temperature to -30°C to +70°C junction temperature - in chapter 8, updated table 8-3 title to DC characteristics (-30°C < TJ < 70°C) and added table footnote c, standby current is based on room temperature"
+    },
+    {
+        "id": 447,
+        "text": "ova5640 - Revision History - Version 2.01 01.20.2011 -  - in chapter 1, updated table 1-1 signal descriptions"
+    },
+    {
+        "id": 448,
+        "text": "ova5640 - Revision History - Version 2.03 05.26.2011 -  - in chapter 3, replaced figure 3-2 - in chapter 4, deleted section 4.6.1 auto exposure control (AEC) \"In extremely bright situations, the LAEC activates, allowing integration time to be less than one row. In extremely dark situations, the night mode activates, allowing integration time to be larger than one frame.\" - in chapter 4, deleted section 4.6.1.1 LAEC \"If the integration time is only one row period but the image is too bright, AEC will enter LAEC mode. Within LAEC, the integration time can be further decreased to the minimum of 1/16 row. LAEC ON/OFF can be set in register bit 0x3A00[6].\" - in chapter 4, table 4-4 AEC/AGC control functions, updated 0x3502 register description - in chapter 7, table 7-5 AEC/AGC control [0x3500 ~ 0x350D], updated 0x3502 register description"
+    },
+    {
+        "id": 449,
+        "text": "ova5640 - Revision History - Version 2.03 05.26.2011 -  the clear advantage™"
+    }
+]

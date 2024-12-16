@@ -1839,6 +1839,7 @@
           "anyOf": [
             {
               "enum": [
+                "datasheet",
                 "diff",
                 "terminal",
                 "debugger",
@@ -1865,6 +1866,7 @@
                 "web"
               ],
               "markdownEnumDescriptions": [
+                "H2Loop Datasheet context",
                 "Reference the contents of the current changes as given by `git diff`",
                 "Reference the last terminal command",
                 "Reference the contents of the local variables in the debugger with top n level (defaulting to 3) of call stack for that thread",

@@ -1,0 +1,610 @@
+[
+    {
+        "id": 1,
+        "text": "Ais328Dq -  High-performance ultra-low-power 3-axis accelerometer"
+    },
+    {
+        "id": 2,
+        "text": "Ais328Dq -  with digital output for automotive applications Datasheet - **production data**"
+    },
+    {
+        "id": 3,
+        "text": "Ais328Dq -  QFN 24 (4 x 4 x 1.8 mm3)"
+    },
+    {
+        "id": 4,
+        "text": "Ais328Dq - Features -  AEC-Q100 qualification Wide supply voltage range: 2.4 V to 3.6 V Low voltage compatible IOs: 1.8 V Ultra-low-power mode consumption: down to 10 μA ±2g/±4g/±8g dynamically selectable full scale SPI / I²C digital output interface 16-bit data output 2 independent programmable interrupt generators System sleep/wakeup function Extended temperature range: -40 °C to 105 °C Embedded self-test High shock survivability: up to 10000 g ECOPACK, RoHS and \"Green\" compliant"
+    },
+    {
+        "id": 5,
+        "text": "Ais328Dq - Applications -  Telematics and black boxes In-dash car navigation Tilt / inclination measurement Anti-theft devices Intelligent power saving Impact recognition and logging Vibration monitoring and compensation Motion-activated functions"
+    },
+    {
+        "id": 6,
+        "text": "Ais328Dq - Description -  The AIS328DQ is an ultra-low-power highperformance 3-axis linear accelerometer with a"
+    },
+    {
+        "id": 7,
+        "text": "Ais328Dq - Description -  digital serial interface SPI standard output. An I²C compatible interface is also available. The device features ultra-low-power operational modes that allow advanced power saving and smart sleep-towakeup functions. The AIS328DQ has dynamic user-selectable full scales of ±2g/±4g/±8g and is capable of measuring accelerations with output data rates from 0.5 Hz to 1 kHz. The self-test capability allows the user to check the functioning of the sensor in the final application. The device may be configured to generate an interrupt signal through inertial wakeup events, or by the position of the device itself. Thresholds and the timing of interrupt generators are programmable by the end user on-the-fly. Available in a small quad flat pack no-lead package (QFPN) with a 4x4 mm footprint, the AIS328DQ is able to respond to the trend towards application miniaturization and is guaranteed to operate over a temperature range from -40 °C to +105 °C."
+    },
+    {
+        "id": 8,
+        "text": "Ais328Dq - Description -  Table 1. Device summary"
+    },
+    {
+        "id": 9,
+        "text": "Ais328Dq - List Of Tables - List Of Figures -  1 Block diagram and pin description 1.1 Block diagram"
+    },
+    {
+        "id": 10,
+        "text": "Ais328Dq - List Of Tables - List Of Figures -  45"
+    },
+    {
+        "id": 11,
+        "text": "Ais328Dq - List Of Tables - 1.2 Pin Description -  Figure 2. Detectable accelerations and pin indicator DIRECTION OF THE DETECTABLE ACCELERATIONS"
+    },
+    {
+        "id": 12,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.1 Mechanical Characteristics -  @ Vdd=3.3 V, T=-40 °C to +105 °C unless otherwise noted(a)."
+    },
+    {
+        "id": 13,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.1 Mechanical Characteristics -  45"
+    },
+    {
+        "id": 14,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.1 Mechanical Characteristics -  a. The product is factory calibrated at 3.3 V. Operational power supply (Vdd) over 3.6 V is not recommended."
+    },
+    {
+        "id": 15,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.1 Mechanical Characteristics -  5. Offset can be eliminated by enabling the built-in high-pass filter."
+    },
+    {
+        "id": 16,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.1 Mechanical Characteristics -  6. Typical zero-g level offset as per factory calibration @ T = 25 °C."
+    },
+    {
+        "id": 17,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.1 Mechanical Characteristics -  7. Guaranteed by design. 8. The sign of \"Self-test output change\" is defined by a sign bit, for all axes. Values in *Table 3* are defined with the STsign bit in the CTRL_REG4 register equal to logic \"0\" (positive self-test)."
+    },
+    {
+        "id": 18,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.1 Mechanical Characteristics -  9. Self-test output changes with the power supply. \"Self-test output change\" is defined as OUTPUT[LSb](CTRL_REG4 ST bit=1) - OUTPUT[LSb](CTRL_REG4 ST bit=0). 1LSb=4g/4096 at 12-bit representation, ±2 g fullscale."
+    },
+    {
+        "id": 19,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.1 Mechanical Characteristics -  10. Output data reaches 99% of final value after 3/ODR when enabling self-test mode, due to device filtering. 11. Across the supply voltage range."
+    },
+    {
+        "id": 20,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.2 Electrical Characteristics -  @ Vdd = 3.3 V, T = -40 °C to +105 °C unless otherwise noted(b)."
+    },
+    {
+        "id": 21,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.2 Electrical Characteristics -  b. The product is factory calibrated at 3.3 V. Operational power supply (Vdd) over 3.6 V is not recommended."
+    },
+    {
+        "id": 22,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.2 Electrical Characteristics -  45 2. It is possible to remove Vdd maintaining Vdd_IO without blocking the communication busses; in this condition the measurement chain is powered off."
+    },
+    {
+        "id": 23,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.2 Electrical Characteristics -  3. Time to obtain valid data after exiting power-down mode."
+    },
+    {
+        "id": 24,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.3 Communication Interface Characteristics 2.3.1 Spi - Serial Peripheral Interface -  Subject to general operating conditions for Vdd and Top."
+    },
+    {
+        "id": 25,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.3 Communication Interface Characteristics 2.3.1 Spi - Serial Peripheral Interface -  1. Values are guaranteed at 10 MHz clock frequency for SPI with both 4 and 3 wires, based on characterization results, not tested in production."
+    },
+    {
+        "id": 26,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.3 Communication Interface Characteristics 2.3.1 Spi - Serial Peripheral Interface -  2. Measurement points are made at 0.2·Vdd_IO and 0.8·Vdd_IO, for both input and output ports. 3. When no communication is ongoing, data on CS, SPC, SDI and SDO are driven by internal pull-up resistors."
+    },
+    {
+        "id": 27,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.3.2 I²C - Inter Ic Control Interface -  Subject to general operating conditions for Vdd and top."
+    },
+    {
+        "id": 28,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.3.2 I²C - Inter Ic Control Interface -  Table 6. I²C slave timing values 45"
+    },
+    {
+        "id": 29,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.3.2 I²C - Inter Ic Control Interface -  Note: Measurement points are made at 0.2·Vdd_IO and 0.8·Vdd_IO for both ports."
+    },
+    {
+        "id": 30,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.4 Absolute Maximum Ratings -  Stresses above those listed as \"absolute maximum ratings\" may cause permanent damage to the device. This is a stress rating only and functional operation of the device under these conditions is not implied. Exposure to maximum rating conditions for extended periods may affect device reliability."
+    },
+    {
+        "id": 31,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.4 Absolute Maximum Ratings -  1. Design guarantee; characterization done at 1500 g/0.5 ms, 3000 g/0.3 ms, 10000 g/0.1 ms; tests under"
+    },
+    {
+        "id": 32,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.4 Absolute Maximum Ratings -  these conditions have passed successfully."
+    },
+    {
+        "id": 33,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.4 Absolute Maximum Ratings -  Note: Supply voltage on any pin should never exceed 4.0 V."
+    },
+    {
+        "id": 34,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.4 Absolute Maximum Ratings -  This device is sensitive to mechanical shock, improper handling can cause permanent damage to the part."
+    },
+    {
+        "id": 35,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.4 Absolute Maximum Ratings -  This device is sensitive to electrostatic discharge (ESD), improper handling can cause permanent damage to the part."
+    },
+    {
+        "id": 36,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.5 Terminology 2.5.1 Sensitivity -  Sensitivity describes the gain of the sensor and can be determined, for example, by applying a 1 g acceleration to it. As the sensor can measure DC accelerations, this can be done easily by pointing the axis of interest towards the center of the Earth, noting the output value, rotating the sensor by 180 degrees (pointing to the sky) and noting the output value again. By doing so, a ±1 g acceleration is applied to the sensor. Subtracting the larger output value from the smaller one, and dividing the result by 2, leads to the actual sensitivity of the sensor. This value changes very little over temperature and also over time. The sensitivity tolerance describes the range of sensitivity of a large population of sensors."
+    },
+    {
+        "id": 37,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.5.2 Zero-G **Level** -  Zero-g level offset (TyOff) describes the deviation of an actual output signal from the ideal output signal if no acceleration is present. A sensor in a steady-state on a horizontal surface measures 0 g on the X-axis and 0 g on the Y-axis, whereas the Z-axis measures 1 g. The output is ideally in the center of the dynamic range of the sensor (the content of the OUT registers is 00h, data expressed as 2's complement number). A deviation from the ideal value in this case is called zero-g offset. Offset is, to some extent, a result of stress to the MEMS sensor and therefore the offset can slightly change after mounting the sensor onto a printed circuit board or exposing it to extensive mechanical stress. Offset changes little over temperature, see \"Zero-g level change vs. temperature\" in *Table 3*. The zero-g level tolerance (TyOff) describes the standard deviation of the range of zero-g levels of a population of sensors."
+    },
+    {
+        "id": 38,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.5.3 Self-Test -  Self-test allows the sensor functionality to be tested without moving it. The self-test function is off when the self-test bit (ST) of CTRL_REG4 (control register 4) is programmed to '0'. When the self-test bit of CTRL_REG4 is programmed to '1' an actuation force is applied to the sensor, simulating a definite input acceleration. In this case, the sensor outputs exhibit a change in their DC levels which are related to the selected full scale through the device sensitivity. When self-test is activated, the device output level is given by the algebraic sum of the signals produced by the acceleration acting on the sensor and by the electrostatic testforce. If the output signals change within the amplitude specified in *Table 3*, then the sensor is working properly and the parameters of the interface chip are within the defined specifications."
+    },
+    {
+        "id": 39,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 2.5.4 Sleep-To-Wakeup -  The \"sleep-to-wakeup\" function, in conjunction with low-power mode, allows further reduction of system power consumption and development of new smart applications. The AIS328DQ may be set to a low-power operating mode, characterized by lower data rate refreshes. In this way the device, even if sleeping, continues to sense acceleration and to generate interrupt requests. When the \"sleep-to-wakeup\" function is activated, the AIS328DQ is able to automatically wake up as soon as the interrupt event has been detected, increasing the output data rate and bandwidth. With this feature, the system may be efficiently switched from low-power mode to full performance depending on user-selectable positioning and acceleration events, therefore ensuring power saving and flexibility."
+    },
+    {
+        "id": 40,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 3 Functionality -  The AIS328DQ is a \"nano\", low-power, digital output 3-axis linear accelerometer housed in a QFPN package. The device includes a sensing element and an IC interface capable of taking information from the sensing element and providing a signal to external applications through an I²C/SPI serial interface."
+    },
+    {
+        "id": 41,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 3.1 Sensing Element -  A proprietary process is used to create a surface micro-machined accelerometer. The technology makes it possible to construct suspended silicon structures which are attached to the substrate at several points called \"anchors\", and are free to move in the direction of the sensed acceleration. To be compatible with traditional packaging techniques, a cap is placed on top of the sensing element to prevent blocking of moving parts during the molding phase of the plastic encapsulation. When an acceleration is applied to the sensor, the proof mass displaces from its nominal position, causing an imbalance in the capacitive half-bridge. This imbalance is measured using charge integration in response to a voltage pulse applied to the capacitor."
+    },
+    {
+        "id": 42,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 3.1 Sensing Element -  At steady-state, the nominal value of the capacitors are a few pF, and when an acceleration is applied the maximum variation of the capacitive load is in the fF range."
+    },
+    {
+        "id": 43,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 3.2 Ic Interface -  The complete measurement chain is composed of a low-noise capacitive amplifier which converts the capacitive unbalancing of the MEMS sensor into an analog voltage that is made available to the user through an analog-to-digital converter."
+    },
+    {
+        "id": 44,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 3.2 Ic Interface -  The acceleration data may be accessed through an I²C/SPI interface, therefore making the device particularly suitable for direct interfacing with a microcontroller."
+    },
+    {
+        "id": 45,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 3.2 Ic Interface -  The AIS328DQ features a data-ready signal (RDY) which indicates when a new set of measured acceleration data is available, therefore simplifying data synchronization in the digital system that uses the device."
+    },
+    {
+        "id": 46,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 3.2 Ic Interface -  The AIS328DQ may also be configured to generate an inertial wakeup and free-fall interrupt signal based on a programmed acceleration event along the enabled axes. Both free-fall and wakeup can be available simultaneously on two different pins."
+    },
+    {
+        "id": 47,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 3.3 Factory Calibration -  The IC interface is factory calibrated for sensitivity (So) and zero-g level (TyOff). The trimming values are stored inside the device in non-volatile memory. When the device is turned on, the trimming parameters are downloaded into the registers to be used during active operation. This allows the device to be used without further calibration."
+    },
+    {
+        "id": 48,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 4 Application Hints -  The device core is supplied through the Vdd line while the I/O pads are supplied through the Vdd_IO line. Power supply decoupling capacitors (100 nF ceramic, 10 μF aluminum) should be placed as near as possible to pin 5 of the device (common design practice)."
+    },
+    {
+        "id": 49,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 4 Application Hints -  All the voltage and ground supplies must be present at the same time to obtain proper behavior of the IC (refer to *Figure 5*). It is possible to remove Vdd while maintaining Vdd_IO without blocking the communication bus; in this condition the measurement chain is powered off."
+    },
+    {
+        "id": 50,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 4 Application Hints -  The functionality of the device and the measured acceleration data is selectable and accessible through the I²C or SPI interfaces. When using the I²C, CS must be tied high."
+    },
+    {
+        "id": 51,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 4 Application Hints -  The functions, the threshold, and the timing of the two interrupt pins (INT 1 and INT 2) can be completely programmed by the user through the I²C/SPI interface."
+    },
+    {
+        "id": 52,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5 Digital Interfaces -  The registers embedded in the AIS328DQ may be accessed through both the I²C and SPI serial interfaces. The latter may be SW configured to operate either in 3-wire or 4-wire interface mode."
+    },
+    {
+        "id": 53,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5 Digital Interfaces -  The serial interfaces are mapped onto the same pads. To select/exploit the I²C interface, the CS line must be tied high (i.e. connected to Vdd_IO)."
+    },
+    {
+        "id": 54,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5 Digital Interfaces -  45"
+    },
+    {
+        "id": 55,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.1 I²C Serial Interface -  The AIS328DQ I²C is a bus slave. The I²C is employed to write data into registers, the content of which can also be read back."
+    },
+    {
+        "id": 56,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.1 I²C Serial Interface -  The relevant I²C terminology is provided in *Table 9* below. There are two signals associated with the I²C bus: the serial clock line (SCL) and the serial data line (SDA). The latter is a bi-directional line used for sending and receiving the data to/from the interface. Both lines are connected to Vdd_IO through a pull-up resistor embedded in the AIS328DQ. When the bus is free, both lines are high."
+    },
+    {
+        "id": 57,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.1 I²C Serial Interface -  The I²C interface is compliant with fast mode (400 kHz) I²C standards as well as with the normal mode."
+    },
+    {
+        "id": 58,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.1.1 I²C Operation -  The transaction on the bus is started through a START (ST) signal. A START condition is defined as a HIGH to LOW transition on the data line while the SCL line is held HIGH. After this has been transmitted by the master, the bus is considered busy. The next byte of data transmitted after the start condition contains the address of the slave in the first 7 bits and the eighth bit tells whether the master is receiving data from the slave or transmitting data to the slave. When an address is sent, each device in the system compares the first seven bits after a start condition with its address. If they match, the device considers itself addressed by the master."
+    },
+    {
+        "id": 59,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.1.1 I²C Operation -  The slave address (SAD) associated to the AIS328DQ is 001100xb. The SDO/SA0 pad can be used to modify the less significant bit of the device address. If the SA0 pad is connected to voltage supply, LSb is '1' (address 0011001b), otherwise if the SA0 pad is connected to ground, the LSb value is '0' (address 0011000b). This solution permits the connection and addressing of two different accelerometers to the same I²C lines. Data transfer with acknowledge is mandatory. The transmitter must release the SDA line during the acknowledge pulse. The receiver must then pull the data line LOW so that it remains stable low during the HIGH period of the acknowledge clock pulse. A receiver which has been addressed is obliged to generate an acknowledge after each byte of data received."
+    },
+    {
+        "id": 60,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.1.1 I²C Operation -  The I²C embedded in the AIS328DQ behaves like a slave device, and the following protocol must be adhered to. After the start condition (ST) a slave address is sent. Once a slave acknowledge (SAK) has been returned, an 8-bit sub-address (SUB) is transmitted: the 7 LSb represent the actual register address while the MSb enables address auto-increment. If the MSb of the SUB field is '1', the SUB (register address) is automatically increased to allow multiple data read/write."
+    },
+    {
+        "id": 61,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.1.1 I²C Operation -  The slave address is completed with a read/write bit. If the bit is '1' (read), a repeated START (SR) condition must be issued after the two sub-address bytes; if the bit is '0' (write) the master transmits to the slave with direction unchanged. *Table 10* explains how the SAD+Read/Write bit pattern is composed, listing all the possible configurations."
+    },
+    {
+        "id": 62,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.1.1 I²C Operation -  Table 12. Transfer when master is writing multiple bytes to slave"
+    },
+    {
+        "id": 63,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.1.1 I²C Operation -  Table 13. Transfer when master is receiving (reading) one byte of data from slave"
+    },
+    {
+        "id": 64,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.1.1 I²C Operation -  45 Data are transmitted in byte format (DATA). Each data transfer contains 8 bits. The number of bytes transferred per transfer is unlimited. Data is transferred with the most significant bit (MSb) first. If a slave receiver does not acknowledge the slave address (i.e. it is not able to receive because it is performing some real-time function) the data line must be left HIGH by the slave. The master can then abort the transfer. A LOW to HIGH transition on the SDA line while the SCL line is HIGH is defined as a STOP condition. Each data transfer must be terminated by the generation of a STOP (SP) condition."
+    },
+    {
+        "id": 65,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.1.1 I²C Operation -  In order to read multiple bytes, it is necessary to assert the most significant bit of the subaddress field. In other words, SUB(7) must be equal to 1 while SUB(6-0) represents the address of the first register to be read. In the presented communication format, MAK is master acknowledge and NMAK is no master acknowledge."
+    },
+    {
+        "id": 66,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.2 Spi Bus Interface -  The AIS328DQ SPI is a bus slave. The SPI allows the writing and reading of the registers of the device."
+    },
+    {
+        "id": 67,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.2 Spi Bus Interface -  The serial interface interacts with the outside world through 4 wires: CS, SPC, **SDI** and SDO."
+    },
+    {
+        "id": 68,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.2 Spi Bus Interface -  CS is the serial port enable and is controlled by the SPI master. It goes low at the start of the transmission and returns high at the end. SPC is the serial port clock and is controlled by the SPI master. It is stopped high when CS is high (no transmission). **SDI** and SDO are, respectively, the serial port data input and output. Those lines are driven at the falling edge of **SPC** and should be captured at the rising edge of SPC. Both the read register and write register commands are completed in 16 clock pulses or in multiples of 8 in cases of multiple read/write bytes. Bit duration is the time between two falling edges of SPC. The first bit (bit 0) starts at the first falling edge of SPC, after the falling edge of CS, while the last bit (bit 15, bit 23, ...) starts at the last falling edge of SPC, just before the rising edge of CS. bit 0: RW bit. When 0, the data DI(7:0) is written into the device. When 1, the data DO(7:0) from the device is read. In the latter case, the chip drives SDO at the start of bit 8. bit 1: MS bit. When 0, the address remains unchanged in multiple read/write commands."
+    },
+    {
+        "id": 69,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.2 Spi Bus Interface -  When 1, the address is auto-incremented in multiple read/write commands."
+    },
+    {
+        "id": 70,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.2 Spi Bus Interface -  bit 2-7: address AD(5:0). This is the address field of the indexed register. bit 8-15: data DI(7:0) (write mode). This is the data that is written to the device (MSb first). bit 8-15: data DO(7:0) (read mode). This is the data that is read from the device (MSb first). In multiple read/write commands further blocks of 8 clock periods are added. When MS bit is '0' the address used to read/write data remains the same for every block. When MS bit is '1' the address used to read/write data is increased at every block."
+    },
+    {
+        "id": 71,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.2 Spi Bus Interface -  The function and the behavior of SDI and **SDO** remain unchanged."
+    },
+    {
+        "id": 72,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.2.1 Spi Read -  45 The SPI read command is performed with 16 clock pulses. Multiple byte read commands are performed by adding blocks of 8 clock pulses to the previous one. bit 0: READ bit. The value is 1. bit 1: MS bit. When 0, do not increment address; when 1, increment address in multiple reads. bit 2-7: address AD(5:0). This is the address field of the indexed register. bit 8-15: data DO(7:0) (read mode). This is the data that is read from the device (MSb first). bit 16-... : data DO(...-8). Further data in multiple byte reads."
+    },
+    {
+        "id": 73,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.2.2 Spi Write -  The SPI write command is performed with 16 clock pulses. Multiple byte write commands are performed by adding blocks of 8 clock pulses to the previous one. bit 0: WRITE bit. The value is 0. bit 1: MS bit. When 0, do not increment address; when 1, increment address in multiple writes. bit 2 -7: address AD(5:0). This is the address field of the indexed register. bit 8-15: data DI(7:0) (write mode). This is the data that is written to the device (MSb first). bit 16-... : data DI(...-8). Further data in multiple byte writes."
+    },
+    {
+        "id": 74,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.2.3 Spi Read In 3-Wire Mode -  3-wire mode is entered by setting to '1' the bit SIM (SPI serial interface mode selection) in CTRL_REG4."
+    },
+    {
+        "id": 75,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.2.3 Spi Read In 3-Wire Mode -  bit 1: MS bit. When 0, do not increment address; when 1, increment address in multiple reads. bit 2-7: address AD(5:0). This is the address field of the indexed register. bit 8-15: data DO(7:0) (read mode). This is the data that is read from the device (MSb first). Multiple read command is also available in 3-wire mode."
+    },
+    {
+        "id": 76,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.2.3 Spi Read In 3-Wire Mode -  Note: If AIS328DQ is used in a multi-SPI slave environment (several devices sharing the same SPI bus), the accelerometer can be forced by software to remain in SPI mode. This objective can be achieved by sending at the beginning of the SPI communication the following sequence to the device: a = read(0x17) write(0x17, (0x80 OR a)) The programming of this register is a possibility to enhance the robustness of the SPI system."
+    },
+    {
+        "id": 77,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 5.2.3 Spi Read In 3-Wire Mode -  45 The SPI read command is performed with 16 clock pulses: bit 0: READ bit. The value is 1."
+    },
+    {
+        "id": 78,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 6 Register Mapping -  Table 15 below provides a list of the 8-bit registers embedded in the device, and the corresponding addresses."
+    },
+    {
+        "id": 79,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 6 Register Mapping -  Registers marked as *Reserved* must not be changed. Writing to those registers may change calibration data and therefore lead to an inoperable device."
+    },
+    {
+        "id": 80,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 6 Register Mapping -  The content of the registers that are loaded at boot should not be changed. They contain the factory calibrated values. Their content is automatically restored when the device is powered up."
+    },
+    {
+        "id": 81,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7 Register Description -  The device contains a set of registers which are used to control its behavior and to retrieve acceleration data. The register addresses, composed of 7 bits, are used to identify the device and to write data through the serial interface."
+    },
+    {
+        "id": 82,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.1 Who_Am_I (0Fh) -  Table 16. WHO_AM_I register 0  0  1  1  0  0  1  0"
+    },
+    {
+        "id": 83,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.1 Who_Am_I (0Fh) -  This is the device identification register. This register contains the device identifier, which for the AIS328DQ is set to 32h."
+    },
+    {
+        "id": 84,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.1 Who_Am_I (0Fh) -  Table 17. CTRL_REG1 register PM2  PM1  PM0  DR1  DR0  Zen  Yen  Xen"
+    },
+    {
+        "id": 85,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.2 Ctrl_Reg1 (20H) -  PM bits allow selection between power-down and two operating active modes. The device is in power-down mode when the PD bits are set to \"000\" (default value after boot). *Table 19* shows all the possible power mode configurations and respective output data rates. Output data in the low-power modes are computed with the low-pass filter cut-off frequency defined by the DR1 and DR0 bits. DR bits, in normal mode operation, select the data rate at which acceleration samples are produced. In low-power mode they define the output data resolution. *Table 20* shows all the possible configurations for the DR1 and DR0 bits."
+    },
+    {
+        "id": 86,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.2 Ctrl_Reg1 (20H) -  Table 20. Normal-mode output data rate configurations and low-pass cut-off frequencies"
+    },
+    {
+        "id": 87,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.3 Ctrl_Reg2 (21H) -  The **BOOT** bit is used to refresh the content of internal registers stored in the Flash memory block. At device power-up, the content of the Flash memory block is transferred to the internal registers related to the trimming functions, to permit correct behavior of the device. If for any reason the content of the trimming register is changed, this bit can be used to restore the correct values. When the BOOT bit is set to '1' the content of the internal Flash is copied to the corresponding internal registers and is used to calibrate the device. These values are factory-trimmed and they are different for every accelerometer. They permit correct behavior of the device and normally do not need to be modified. At the end of the boot process, the BOOT bit is again set to '0'."
+    },
+    {
+        "id": 88,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.3 Ctrl_Reg2 (21H) -  45 HPCF[1:0]. These bits are used to configure the high-pass filter cut-off frequency ft which is given by:"
+    },
+    {
+        "id": 89,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.3 Ctrl_Reg2 (21H) -  $$\\mathbf{f}_{\\mathbf{t}}\\,=\\,\\ln\\!\\left(1-{\\frac{1}{\\mathrm{H}\\mathbf{P}\\mathbf{c}}}\\right)\\cdot{\\frac{\\mathbf{f}_{\\mathbf{s}}}{2\\pi}}$$"
+    },
+    {
+        "id": 90,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.3 Ctrl_Reg2 (21H) -  The equation can be simplified to the following approximated equation:"
+    },
+    {
+        "id": 91,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.3 Ctrl_Reg2 (21H) -  $\\text{f}_\\text{t}\\,=\\,\\dfrac{\\text{f}_\\text{s}}{\\text{6}\\cdot\\text{10}\\text{Pa}}$ . 6 HPc  = -------------------"
+    },
+    {
+        "id": 92,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.3 Ctrl_Reg2 (21H) -  Table 24. High-pass filter cut-off frequency configuration"
+    },
+    {
+        "id": 93,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.4 Ctrl_Reg3 [Interrupt Ctrl Register] (22H) -  Table 25. CTRL_REG3 register IHL  PP_OD  LIR2  I2_CFG1  I2_CFG0  LIR1  I1_CFG1  I1_CFG0"
+    },
+    {
+        "id": 94,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - Table 27. Data Signal On Int 1 And Int 2 Pad 7.5 Ctrl_Reg4 (23H) -  The BDU bit is used to inhibit the output register update between the reading of upper and lower register parts. In default mode (BDU = '0'), the lower and upper register parts are updated continuously. If it is not certain to read faster than output data rate, it is recommended to set the BDU bit to '1'. In this way, after the reading of the lower (upper) register part, the content of that output register is not updated until the upper (lower) part is read also. This feature prevents the reading of LSb and MSb related to different samples."
+    },
+    {
+        "id": 95,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.6 Ctrl_Reg5 (24H) -  Table 31. CTRL_REG5 description TurnOn1,  TurnOn0  Turn-on mode selection for sleep-to-wake function. Default value: 00."
+    },
+    {
+        "id": 96,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.6 Ctrl_Reg5 (24H) -  Table 30. CTRL_REG5 register 0  0  0  0  0  0  TurnOn1  TurnOn0"
+    },
+    {
+        "id": 97,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.6 Ctrl_Reg5 (24H) -  TurnOn bits are used for turning on the **sleep-to-wake** function."
+    },
+    {
+        "id": 98,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.6 Ctrl_Reg5 (24H) -  By setting TurnOn[1:0] bits to 11, the \"sleep-to-wake\" function is enabled. When an interrupt event occurs, the device is switched to normal mode, increasing the ODR to the value defined in CTRL_REG1. Although the device is in normal mode, the CTRL_REG1 content is not automatically changed to \"normal mode\" configuration."
+    },
+    {
+        "id": 99,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.7 Hp_Filter_Reset (25H) -  Dummy register. Reading at this address instantaneously zeroes the content of the internal high-pass filter. If the high-pass filter is enabled, all three axes are instantaneously set to 0 g. This makes it possible to surmount the settling time of the high-pass filter."
+    },
+    {
+        "id": 100,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.8 Reference (26H) -  This register sets the acceleration value taken as a reference for the high-pass filter output."
+    },
+    {
+        "id": 101,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.8 Reference (26H) -  When the filter is turned on (at least one FDS, HPen2, or HPen1 bit is equal to '1') and HPM bits are set to \"01\", filter out is generated taking this value as a reference."
+    },
+    {
+        "id": 102,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.9 Status_Reg (27H) -  Table 35. STATUS_REG register ZYXOR  ZOR  YOR  XOR  ZYXDA  ZDA  YDA  XDA"
+    },
+    {
+        "id": 103,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.10 Out_X_L (28H), Out_X_H (29) -  X-axis acceleration data. The value is expressed as 2's complement."
+    },
+    {
+        "id": 104,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.11 Out_Y_L (2Ah), Out_Y_H (2Bh) -  Y-axis acceleration data. The value is expressed as 2's complement."
+    },
+    {
+        "id": 105,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.12 Out_Z_L (2Ch), Out_Z_H (2Dh) -  Z-axis acceleration data. The value is expressed as 2's complement."
+    },
+    {
+        "id": 106,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.13 Int1_Cfg (30H) -  Configuration register for interrupt 1 source."
+    },
+    {
+        "id": 107,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.14 Int1_Src (31H) -  Interrupt 1 source register. Read-only register. Reading at this address clears the INT1_SRC IA bit (and the interrupt signal on the INT 1 pin) and allows the refreshing of data in the INT1_SRC register if the latched option was chosen."
+    },
+    {
+        "id": 108,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.14 Int1_Src (31H) -  Table 42. INT1_THS register 0  THS6  THS5  THS4  THS3  THS2  THS1  THS0"
+    },
+    {
+        "id": 109,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.15 Int1_Ths(32H) Table 43. Int1_Ths Description -  THS6 - THS0 Interrupt 1 threshold. Default value: 000 0000"
+    },
+    {
+        "id": 110,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.16 Int1_Duration (33H) -  D6 - D0  Duration value. Default value: 000 0000"
+    },
+    {
+        "id": 111,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.16 Int1_Duration (33H) -  Table 44. INT1_DURATION register 0  D6  D5  D4  D3  D2  D1  D0"
+    },
+    {
+        "id": 112,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - Table 45. Int2_Duration Description -  The D6 - D0 bits set the minimum duration of the interrupt 2 event to be recognized. Duration steps and maximum values depend on the ODR chosen."
+    },
+    {
+        "id": 113,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.17 Int2_Cfg (34H) -  Configuration register for interrupt 2 source."
+    },
+    {
+        "id": 114,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.17 Int2_Cfg (34H) -  45"
+    },
+    {
+        "id": 115,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.18 Int2_Src (35H) -  Interrupt 2 source register. Read-only register."
+    },
+    {
+        "id": 116,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.18 Int2_Src (35H) -  Table 51. INT2_THS register 0  THS6  THS5  THS4  THS3  THS2  THS1  THS0"
+    },
+    {
+        "id": 117,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.18 Int2_Src (35H) -  Reading at this address clears the INT2_SRC IA bit (and the interrupt signal on the INT 2 pin) and allows the refreshing of data in the INT2_SRC register if the latched option was chosen."
+    },
+    {
+        "id": 118,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.19 Int2_Ths (36H) Table 52. Int2_Ths Description -  THS6 - THS0 Interrupt 1 threshold. Default value: 000 0000 DocID18160 Rev 4 37/45"
+    },
+    {
+        "id": 119,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.20 Int2_Duration (37H) -  The **D6 - D0** bits set the minimum duration of the interrupt 2 event to be recognized."
+    },
+    {
+        "id": 120,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 7.20 Int2_Duration (37H) -  Duration time steps and maximum values depend on the ODR chosen."
+    },
+    {
+        "id": 121,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  In order to meet environmental requirements, ST offers these devices in different grades of ECOPACK packages, depending on their level of environmental compliance. ECOPACK specifications, grade definitions and product status are available at: www.st.com. ECOPACK is an ST trademark."
+    },
+    {
+        "id": 122,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  Dim."
+    },
+    {
+        "id": 123,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  mm"
+    },
+    {
+        "id": 124,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  Min. Typ. Max."
+    },
+    {
+        "id": 125,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  A 1.75 1.80 1.85"
+    },
+    {
+        "id": 126,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  A1 0.00 0.05 A3 0.203 ref"
+    },
+    {
+        "id": 127,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  b 0.20 0.25 0.30"
+    },
+    {
+        "id": 128,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  D 4.00 bsc"
+    },
+    {
+        "id": 129,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  D2 2.20 2.30 2.40"
+    },
+    {
+        "id": 130,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  E 4.00 bsc"
+    },
+    {
+        "id": 131,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  E2 2.20 2.30 2.40"
+    },
+    {
+        "id": 132,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  e 0.50 bsc"
+    },
+    {
+        "id": 133,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  L 0.35 0.40 0.45"
+    },
+    {
+        "id": 134,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  aaa 0.10"
+    },
+    {
+        "id": 135,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  eee 0.08 **QFPN-24 (4x4x1.8 mm3)**"
+    },
+    {
+        "id": 136,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  Quad Flat Package No lead"
+    },
+    {
+        "id": 137,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 8 Package Information -  Figure 12. QFPN 4x4x1.8mm3, 24L: mechanical data and package dimensions"
+    },
+    {
+        "id": 138,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 9 Soldering Information -  The QFPN-24 package is compliant with the ECOPACK, RoHS and \"Green\" standard."
+    },
+    {
+        "id": 139,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 9 Soldering Information -  It is qualified for soldering heat resistance according to JEDEC J-STD-020C, in MSL3 conditions."
+    },
+    {
+        "id": 140,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 9 Soldering Information -  For complete land pattern and soldering recommendations, please refer to the technical note TN0019 available on www.st.com."
+    },
+    {
+        "id": 141,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 9.1 General Guidelines About Soldering Surface-Mounted Accelerometers -  As common PCB design and industrial practice when considering accelerometer soldering, there are always 3 elements to take into consideration: 1. PCB with its own conductive layers (i.e. copper) and other organic materials used for board protection and dielectric isolation."
+    },
+    {
+        "id": 142,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 9.1 General Guidelines About Soldering Surface-Mounted Accelerometers -  2. ACCELEROMETER to be mounted on the board. The accelerometer senses acceleration, but it senses also the mechanical stress coming from the board. This stress is minimized with simple PCB design rules."
+    },
+    {
+        "id": 143,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 9.1 General Guidelines About Soldering Surface-Mounted Accelerometers -  3. SOLDERING PASTE like SnAgCu. This soldering paste can be dispensed on the board with a screen printing method through a stencil. The pattern of the soldering paste on the PCB is given by the stencil mask itself."
+    },
+    {
+        "id": 144,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 9.2 Pcb Design Guidelines -  PCB land and solder masking general recommendations are shown in *Figure 13*. Refer to Figure 12 for specific device size, land count and pitch."
+    },
+    {
+        "id": 145,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 9.2 Pcb Design Guidelines -  It is recommended to open solder mask external to PCB land It is mandatory, for correct device functionality, to ensure that some clearance is present between the accelerometer thermal pad and PCB. In order to obtain this clearance it is recommended to open the PCB thermal pad solder mask The area below the sensor (on the same side of the board) must be defined as keepout area. It is strongly recommended not to place any structure in the top metal layer underneath the sensor Traces connected to pads should be as symmetrical as possible. Symmetry and balance for pad connection helps component self alignment and leads to a better control of solder paste reduction after reflow For better performances over temperature it is strongly recommended not to place large insertion components like buttons or shielding boxes at distances less than 2 mm from the sensor Central die pad and \"Pin 1 Indicator\" are physically connected to GND. Leave \"Pin 1 Indicator\" unconnected during soldering."
+    },
+    {
+        "id": 146,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 9.2.1 Pcb Design Rules -  A = Clearance from PCB land edge to solder mask opening  0.1 mm to ensure that some solder mask remains between PCB pads B = PCB land length = QFPN solder pad length + 0.1 mm C = PCB land width = QFPN solder pad width + 0.1 mm D = PCB thermal pad solder mask opening = QFPN thermal pad side + 0.2 mm"
+    },
+    {
+        "id": 147,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 9.3 Stencil Design And Solder Paste Application -  The thickness and the pattern of the soldering paste are important for proper accelerometer mounting process."
+    },
+    {
+        "id": 148,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 9.3 Stencil Design And Solder Paste Application -  Stainless steel stencils are recommended for solder paste applications A stencil thickness of 125 - 150 μm (5 - 6 mils) is recommended for screen printing The final thickness of soldering paste should allow proper cleaning of flux residuals and clearance between sensor package and PCB Stencil aperture should have a rectangular shape with a dimension up to 25 μm (1mil) smaller than PCB land The openings of the stencil for the signal pads should be between 50% and 80% of the PCB pad area Optionally, for better solder paste release, the aperture walls should be trapezoidal and the corners rounded The fine pitch of the IC leads requires accurate alignment of the stencil to the printed circuit board. The stencil and printed circuit assembly should be aligned to within 25 μm (1 mil) prior to application of the solder paste."
+    },
+    {
+        "id": 149,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - 9.4 Process Considerations -  In the case of using no self-cleaning solder paste, it is mandatory to properly wash the board after soldering to eliminate any possible source of leakage between adjacent pads due to flux residues The PCB soldering profile depends on the number, size and placement of components in the application board. It is not functional to define a specific soldering profile for the accelerometer only. The user should use a time and temperature reflow profile that is derived from the PCB design and manufacturing experience."
+    },
+    {
+        "id": 150,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - Important Notice - Please Read Carefully -  STMicroelectronics NV and its subsidiaries (\"ST\") reserve the right to make changes, corrections, enhancements, modifications, and improvements to ST products and/or to this document at any time without notice. Purchasers should obtain the latest relevant information on ST products before placing orders. ST products are sold pursuant to ST's terms and conditions of sale in place at the time of order acknowledgement. Purchasers are solely responsible for the choice, selection, and use of ST products and ST assumes no liability for application assistance or the design of Purchasers' products. No license, express or implied, to any intellectual property right is granted by ST herein. Resale of ST products with provisions different from the information set forth herein shall void any warranty granted by ST for such product."
+    },
+    {
+        "id": 151,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - Important Notice - Please Read Carefully -  ST and the ST logo are trademarks of ST. For additional information about ST trademarks, please refer to *www.st.com/trademarks*. All other product or service names are the property of their respective owners. Information in this document supersedes and replaces information previously supplied in any prior versions of this document."
+    },
+    {
+        "id": 152,
+        "text": "Ais328Dq - 2 Mechanical And Electrical Specifications - Important Notice - Please Read Carefully -  © 2020 STMicroelectronics - All rights reserved"
+    }
+]

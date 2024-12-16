@@ -10,6 +10,7 @@ export const DEFAULT_CHAT_MODEL_CONFIG: ModelDescription = {
   provider: "together",
   apiKey: "47e5e2f91298cac3f1d47543f941be52bcbf4d080ae661cf6fa87fbbc3409d0a",
   title: "H2LooP",
+  systemMessage:"You are an expert software developer. You give helpful and concise responses. If you are provided with context, dont let the user know it."
 };
 
 export const DEFAULT_AUTOCOMPLETE_MODEL_CONFIG: ModelDescription = {
@@ -51,6 +52,7 @@ export const FREE_TRIAL_MODELS: ModelDescription[] = [
 ];
 
 export const defaultContextProvidersVsCode: ContextProviderWithParams[] = [
+  { name: "datasheet", params: {} },
   { name: "code", params: {} },
   { name: "docs", params: {} },
   { name: "diff", params: {} },
